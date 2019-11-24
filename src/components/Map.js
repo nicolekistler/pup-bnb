@@ -1,5 +1,6 @@
-import React, { Component }  from 'react';
 /* global google */
+import React, { Component } from 'react';
+import '../styles/Listings.css';
 
 class Map extends Component {
 	constructor(props) {
@@ -21,6 +22,8 @@ class Map extends Component {
 		this.map = new google.maps.Map(this.init, this.options);
 
 		this.map.setOptions({
+			streetViewControl: false,
+			mapTypeControl: false,
 			styles: [{
 				featureType: 'road',
 				elementType: 'labels',
@@ -30,10 +33,18 @@ class Map extends Component {
 			}]
 		});
 
-		this.map.setCenter({
-			lat: this.props.place_lat,
-			lng: this.props.place_lng
-		});
+		if(this.props.place_lat) {
+			const lat = parseFloat(this.props.place_lat);
+			const lng = parseFloat(this.props.place_lng);
+
+			this.map.setCenter({
+				lat: lat,
+				lng: lng
+			});
+		}
+
+		this.renderMarkers();
+
 	}
 
 	componentDidUpdate() {
@@ -44,6 +55,22 @@ class Map extends Component {
 				lng: this.props.place_lng
 			});
 		}
+	}
+
+	renderMarkers() {
+		fetch('http://nameless-shore-23594.herokuapp.com/listings')
+			.then(res => res.json())
+			.then(data => {
+				data.forEach(listing => {
+					new google.maps.Marker({
+						position: {lat: listing.lat,lng: listing.lng},
+						map: this.map,
+						title: 'Test Marker',
+						url: 'google.com'
+					});
+				});
+			})
+			.catch(console.log('catch'));
 	}
 
 	render() {

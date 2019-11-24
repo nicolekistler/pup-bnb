@@ -1,8 +1,12 @@
+/* global google */
 import React, { Component } from 'react';
 import SearchBar from './SearchBar';
 import Spinner from './Spinner';
 import Map from './Map';
 import Listing from './Listing';
+import NavHeader from './NavHeader';
+import '../styles/Listings.css';
+import logo from '../assets/paw-print.png';
 
 class Listings extends Component {
 	constructor(props) {
@@ -29,45 +33,50 @@ class Listings extends Component {
 	}
 
 	componentDidMount() {
-		const place_id  = this.props.history.location.state.place_id;
-		const place_lat = this.props.history.location.state.place_lat;
-		const place_lng = this.props.history.location.state.place_lng;
+		const placeId  = this.props.history.location.state.place_id;
+		const placeLat = this.props.history.location.state.place_lat;
+		const placeLng = this.props.history.location.state.place_lng;
 
-		this.fetchListings(place_id, place_lat, place_lng);
+		this.fetchListings(placeId, placeLat, placeLng);
 	}
 
-	handlePlace(place_id, place_lat, place_lng) {
+	handlePlace(placeId, placeLat, placeLng) {
 		this.setState({
-			place_id  : place_id,
-			place_lat : place_lat,
-			place_lng : place_lng
+			place_id  : placeId,
+			place_lat : placeLat,
+			place_lng : placeLng
 		});
 
-		this.fetchListings(place_id, place_lat, place_lng);
+		this.fetchListings(placeId, placeLat, placeLng);
 	}
 
 	handleClick() {
-		const place_id  = this.state.place_id;
-		const place_lat = this.state.place_lat;
-		const place_lng = this.state.place_lng;
+		const placeId  = this.state.place_id;
+		const placeLat = this.state.place_lat;
+		const placeLng = this.state.place_lng;
 
-		this.fetchListings(place_id, place_lat, place_lng);
+		this.fetchListings(placeId, placeLat, placeLng);
 	}
 
-	fetchListings(place_id, place_lat, place_lng) {
+	fetchListings(placeId, placeLat, placeLng) {
 		fetch('http://nameless-shore-23594.herokuapp.com/listings')
 			.then(res => res.json())
 			.then((data) => {
 				let filtered = data.filter((listing) => {
-					return listing.place_id === place_id;
+					const pointA = new google.maps.LatLng(placeLat, placeLng);
+					const pointB = new google.maps.LatLng(listing.lat, listing.lng);
+
+					const distance = google.maps.geometry.spherical.computeDistanceBetween(pointA, pointB) * 0.000621371;
+
+					return distance < 50;
 				});
 
 				this.setState({
 					listings        : filtered,
 					fetchInProgress : false,
-					place_id        : place_id,
-					place_lat       : place_lat,
-					place_lng       : place_lng
+					place_id        : placeId,
+					place_lat       : placeLat,
+					place_lng       : placeLng
 				});
 			})
 			.catch(console.log('catch'));
@@ -84,28 +93,37 @@ class Listings extends Component {
 			<Listing listing={listing} key={listing.id}/>
 		));
 
-		if(mapped_listings.length === 0) {
-			mapped_listings = `No pupbnbs for u :(`;
+		if(!mapped_listings.length) {
+			const suggestions = ['Brooklyn', 'Tokyo', 'Paris'];
+			const rand_suggestion = suggestions[Math.floor(Math.random() * suggestions.length)];
+
+			mapped_listings =
+			<div className='listing-container'>
+				We couldn't find anything matching your search. Try searching "{rand_suggestion}"
+			</div>;
 		}
 
 		return (
-			<div id='search-form'>
-				<br/>
-				<SearchBar onSelectPlace={this.handlePlace}/>
-				<button onClick={this.handleClick}>Search</button>
-
-				<ul>
-					{this.state.fetchInProgress ?
+			<div id='main-listings-container'>
+				<div id='nav-container'>
+					<img src={logo} />
+					<SearchBar onSelectPlace={this.handlePlace}/>
+					<NavHeader/>
+				</div>
+				<div>
+					{ this.state.fetchInProgress ?
 						<Spinner /> :
-						<div>
-							<h1>Listings</h1>
-							{mapped_listings}
-							<h1>Map</h1>
-							<Map place_lat={this.state.place_lat} place_lng={this.state.place_lng} />
+						<div className='listings-container'>
+							<div className='results-container'>
+								<h1>Results</h1>
+								{mapped_listings}
+							</div>
+							<div id='map-container'>
+								<Map place_lat={this.state.place_lat} place_lng={this.state.place_lng} listings={mapped_listings} />
+							</div>
 						</div>
-
 					}
-				</ul>
+				</div>
 			</div>
 		);
 	}

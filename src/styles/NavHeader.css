@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+.navbar a {
+  color: #484848;
+  float: right;
+  padding: 1vw;
+  text-decoration: none;
+  font-size: 1vw;
+  margin-right: 3%;
+}
+
+/* Phone */
+@media only screen and (max-width: 600px) {
+  .navbar a {
+    font-size: 4vw;
+    float: right;
+    margin-top: 2vw;
+    margin-left: 5%;
+  }
+
+}

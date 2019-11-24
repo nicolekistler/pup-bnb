@@ -1,5 +1,5 @@
-import React, { Component }  from 'react';
 /* global google */
+import React, { Component }  from 'react';
 
 class SearchBar extends Component {
 	constructor(props) {
@@ -28,16 +28,19 @@ class SearchBar extends Component {
 		const place    = this.autocomplete.getPlace();
 
 		const place_id = place.place_id;
-		const place_lat = place.geometry.location.lat();
-		const place_lng = place.geometry.location.lng();
 
-		this.setState({
-			place : place_id,
-			lat   : place_lat,
-			lng   : place_lng
-		});
+		if(place_id) {
+			const place_lat = place.geometry.location.lat();
+			const place_lng = place.geometry.location.lng();
 
-		this.props.onSelectPlace(place_id, place_lat, place_lng);
+			this.setState({
+				place : place_id,
+				lat   : place_lat,
+				lng   : place_lng
+			});
+
+			this.props.onSelectPlace(place_id, place_lat, place_lng);
+		}
 	}
 
 	handleKeyDown(e) {

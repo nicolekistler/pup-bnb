@@ -1,18 +1,21 @@
 import React, { Component }  from 'react';
 import 'react-dates/initialize';
 import SearchBar from './SearchBar';
-import { DateRangePicker } from 'react-dates';
-import 'react-dates/lib/css/_datepicker.css';
 import { withRouter } from 'react-router';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
 class SearchForm extends Component {
 
 	constructor(props) {
 		super(props);
 
+		let tomorrow = new Date();
+		tomorrow.setDate(tomorrow.getDate() + 1);
+
 		this.state = {
-			startDate : null,
-			endDate   : null,
+			startDate : new Date(),
+			endDate   : tomorrow,
 			place_id  : '',
 			place_lat : '',
 			place_lng : ''
@@ -23,9 +26,6 @@ class SearchForm extends Component {
 	}
 
 	handlePlace = (place_id, place_lat, place_lng) => {
-		console.log('TEST');
-		console.log(place_lat, place_lng);
-
 		this.setState({
 			place_id  : place_id,
 			place_lat : place_lat,
@@ -33,7 +33,25 @@ class SearchForm extends Component {
 		});
 	}
 
-	handleSubmit = (e) => {
+	handleStartDateChange = date => {
+		this.setState({
+			startDate: date
+		});
+
+		if(date > this.state.endDate) {
+			this.setState({
+				endDate: date
+			});
+		}
+	};
+
+	handleEndDateChange = date => {
+		this.setState({
+			endDate: date
+		});
+	};
+
+	handleSubmit = e => {
 		e.preventDefault();
 
 		this.props.history.push({
@@ -48,37 +66,36 @@ class SearchForm extends Component {
 
 	render() {
 		return (
-		<div id='home-search-container'>
-			<div id='home-welcome-container'>
-			<h1 id='welcome-message'>
-				Book unique places for your dog to stay.
-			</h1>
-			</div>
-
-			<form id='search-form' onSubmit={this.handleSubmit}>
-				<div>
-					<label>WHERE</label>
-					<SearchBar onSelectPlace={this.handlePlace}/>
+			<div id='search-container'>
+				<div id='message-container'>
+					<h5>Book unique places for your dog to stay.</h5>
 				</div>
-					<label>WHEN</label><br/>
-					<DateRangePicker
-						startDate={this.state.startDate}
-						startDateId='start-date-picker'
-						endDate={this.state.endDate}
-						endDateId='end-date-picker'
-						onDatesChange={({ startDate, endDate }) => this.setState({ startDate, endDate })}
-						focusedInput={this.state.focusedInput}
-						onFocusChange={focusedInput => this.setState({ focusedInput })}
-						noBorder={true}
-						readOnly={true}
-					/>
+				<div id='form-container'>
+					<form onSubmit={this.handleSubmit}>
+						<label>WHERE</label><br/>
+						<SearchBar onSelectPlace={this.handlePlace}/>
 
-				<button id='search-form-submit'>
-					<b>Search</b>
-				</button>
+						<label>WHEN</label><br/>
+						<div id='date-picker-container'>
+							<DatePicker
+								selectsStart
+								selected={this.state.startDate}
+								onChange={this.handleStartDateChange}
+							/>
+							<DatePicker
+								selectsEnd
+								selected={this.state.endDate}
+								onChange={this.handleEndDateChange}
+								minDate={this.state.startDate}
+							/>
+						</div>
 
-			</form>
-		</div>
+						<button id='search-form-submit'>
+							<b>Search</b>
+						</button>
+					</form>
+				</div>
+			</div>
 		);
 	}
 }

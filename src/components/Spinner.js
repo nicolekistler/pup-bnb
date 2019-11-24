@@ -1,6 +1,7 @@
 import React, { Component }  from 'react';
 import BeatLoader from 'react-spinners/BeatLoader';
 import { css } from '@emotion/core';
+import '../styles/Listings.css';
 
 const override = css`
     display: block;
@@ -16,14 +17,16 @@ class Spinner extends Component {
 
 	render() {
 		return (
-		<div className='loading'>
-			<BeatLoader
-				css={override}
-				sizeUnit={'px'}
-				size={15}
-				color={'#e0e0e0'}
-				loading={this.state.loading}
-			/>
+			<div className='listings-container'>
+				<div className='results-container'>
+					<BeatLoader
+						css={override}
+						sizeUnit={'px'}
+						size={15}
+						color={'#e0e0e0'}
+						loading={this.state.loading}
+					/>
+			</div>
 		</div>
 		);
 	}
