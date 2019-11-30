@@ -12,14 +12,6 @@ class Listings extends Component {
 	constructor(props) {
 		super(props);
 
-		if(!this.props.history.location.state) {
-			this.props.history.location.state = {
-				place_id  : '',
-				place_lat : '',
-				place_lng : ''
-			}
-		}
-
 		this.state = {
 			fetchInProgress : true,
 			listings        : '',
@@ -28,36 +20,52 @@ class Listings extends Component {
 			place_lng       : ''
 		};
 
-		this.handlePlace = this.handlePlace.bind(this);
-		this.handleClick = this.handleClick.bind(this);
+		this.handlePlaceChange = this.handlePlaceChange.bind(this);
 	}
 
 	componentDidMount() {
+		/* Set this to prevent error if user navigates to page without history prop */
+		if(!this.props.history.location.state) {
+			this.props.history.location.state = {
+				place_id  : '',
+				place_lat : '',
+				place_lng : ''
+			}
+		}
+
 		const placeId  = this.props.history.location.state.place_id;
 		const placeLat = this.props.history.location.state.place_lat;
 		const placeLng = this.props.history.location.state.place_lng;
 
+		/* On mount, fetch listings */
 		this.fetchListings(placeId, placeLat, placeLng);
 	}
 
-	handlePlace(placeId, placeLat, placeLng) {
+	/**
+	 * Handle when user searches place value
+	 * @param  {Number} placeId
+	 * @param  {Number} placeLat
+	 * @param  {Number} placeLng
+	 * @return {Void}
+	 */
+	handlePlaceChange(placeId, placeLat, placeLng) {
 		this.setState({
 			place_id  : placeId,
 			place_lat : placeLat,
 			place_lng : placeLng
 		});
 
+		/* Fetch listings */
 		this.fetchListings(placeId, placeLat, placeLng);
 	}
 
-	handleClick() {
-		const placeId  = this.state.place_id;
-		const placeLat = this.state.place_lat;
-		const placeLng = this.state.place_lng;
-
-		this.fetchListings(placeId, placeLat, placeLng);
-	}
-
+	/**
+	 * Fetch listings and filter using distance
+	 * @param  {Number} placeId
+	 * @param  {Number} placeLat
+	 * @param  {Number} placeLng
+	 * @return {Void}
+	 */
 	fetchListings(placeId, placeLat, placeLng) {
 		fetch('http://nameless-shore-23594.herokuapp.com/listings')
 			.then(res => res.json())
@@ -89,17 +97,20 @@ class Listings extends Component {
 			filtered_listings = this.state.listings;
 		}
 
+		/* Render listings index */
 		let mapped_listings = filtered_listings.map(listing => (
 			<Listing listing={listing} key={listing.id}/>
 		));
 
+		/* If there are no listings at a given place, return a suggested place */
 		if(!mapped_listings.length) {
 			const suggestions = ['Brooklyn', 'Tokyo', 'Paris'];
-			const rand_suggestion = suggestions[Math.floor(Math.random() * suggestions.length)];
+			const randomSuggestion = suggestions[Math.floor(Math.random() * suggestions.length)];
 
 			mapped_listings =
 			<div className='listing-container'>
-				We couldn't find anything matching your search. Try searching "{rand_suggestion}"
+				<br/><br/>
+				We couldn't find anything matching your search. Try searching "{randomSuggestion}"
 			</div>;
 		}
 
@@ -107,7 +118,7 @@ class Listings extends Component {
 			<div id='main-listings-container'>
 				<div id='nav-container'>
 					<img src={logo} />
-					<SearchBar onSelectPlace={this.handlePlace}/>
+					<SearchBar onSelectPlace={this.handlePlaceChange}/>
 					<NavHeader/>
 				</div>
 				<div>

@@ -3,6 +3,7 @@
   flex-direction: column;
 }
 
+/* This is affecting like everythang */
 #nav-container {
   display: flex;
   flex-direction: row;
@@ -45,7 +46,7 @@
   margin-top: 2%;
   margin-left: 2%;
   width: 70%;
-  height: 100vh;
+  height: 95vh;
   overflow: scroll;
 }
 
@@ -57,7 +58,6 @@
   height: 100vh;
   width: 100%;
   margin-right: 5%;
-  background-color: aquamarine;
 }
 
 .listing-container {
@@ -102,3 +102,5 @@
 .results-container::-webkit-scrollbar {
   display: none;
 }
+
+/* calc(100vh - 50px) */

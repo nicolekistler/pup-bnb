@@ -4,7 +4,6 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 import Home from './components/Home';
 import Listings from './components/Listings';
 import ListingDetail from './components/ListingDetail';
-import SignUp from './components/SignUp';
 import MyBookings from './components/MyBookings';
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
 					<Route exact path='/' component={Home} />
 					<Route exact path='/Listings' component={Listings}/>
 					<Route exact path='/ListingDetail' component={ListingDetail}/>
-					<Route exact path='/SignUp' component={SignUp}/>
 					<Route exact path='/MyBookings' component={MyBookings}/>
 				</div>
 			</Router>
