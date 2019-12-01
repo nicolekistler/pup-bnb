@@ -19,6 +19,9 @@
   width: 5%;
 }
 
+.navbar img:hover {
+  cursor: pointer;
+}
 
 /* Phone */
 @media only screen and (max-width: 600px) {

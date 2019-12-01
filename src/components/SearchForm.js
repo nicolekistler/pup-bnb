@@ -27,7 +27,7 @@ class SearchForm extends Component {
 		this.handleEndDateChange   = this.handleEndDateChange.bind(this);
 	}
 
-	handlePlace = (placeId, placeLat, placeLng) => {
+	handlePlace(placeId, placeLat, placeLng) {
 		this.setState({
 			place_id  : placeId,
 			place_lat : placeLat,
@@ -53,7 +53,7 @@ class SearchForm extends Component {
 		});
 	};
 
-	handleSubmit = e => {
+	handleSubmit(e) {
 		e.preventDefault();
 
 		this.props.history.push({

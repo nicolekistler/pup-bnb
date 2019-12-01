@@ -4,12 +4,14 @@ import RegistrationModal from './RegistrationModal';
 import { Link } from 'react-router-dom';
 import '../styles/NavHeader.css';
 import logo from '../assets/paw-print.png';
+import { withRouter } from 'react-router';
 
 class NavHeader extends Component {
 	constructor(props) {
 		super(props);
 
 		this.showLoginModal = this.showLoginModal.bind(this);
+		this.onClickLogo = this.onClickLogo.bind(this);
 	}
 
 	/**
@@ -36,11 +38,17 @@ class NavHeader extends Component {
 		modal.style.display = 'block';
 	}
 
+	onClickLogo() {
+		this.props.history.push({
+			pathname: '/'
+		});
+	}
+
 	render() {
 		let logoDisplay = null;
 
 		if(this.props.show_logo) {
-			logoDisplay = <img src={logo} alt={''} />;
+			logoDisplay = <img src={logo} alt={''} onClick={this.onClickLogo}/>;
 		}
 
 		return (
@@ -62,4 +70,4 @@ NavHeader.defaultProps = {
   show_logo: true
 }
 
-export default NavHeader;
+export default withRouter(NavHeader);
