@@ -66,9 +66,9 @@ class Listings extends Component {
 
 	/**
 	 * Handle when user searches place value
-	 * @param  {Number} placeId
-	 * @param  {Number} placeLat
-	 * @param  {Number} placeLng
+	 * @param  {Number} placeId  Google Maps place ID
+	 * @param  {Number} placeLat Place latitude
+	 * @param  {Number} placeLng Place longitude
 	 * @return {Void}
 	 */
 	handlePlaceChange(placeId, placeLat, placeLng) {
@@ -84,9 +84,9 @@ class Listings extends Component {
 
 	/**
 	 * Fetch listings and filter using distance
-	 * @param  {Number} placeId
-	 * @param  {Number} placeLat
-	 * @param  {Number} placeLng
+	 * @param  {Number} placeId  Google maps place ID
+	 * @param  {Number} placeLat Place latitude
+	 * @param  {Number} placeLng Place longitude
 	 * @return {Void}
 	 */
 	fetchListings(placeId, placeLat, placeLng) {
@@ -115,8 +115,8 @@ class Listings extends Component {
 
 	/**
 	 * Create listings index to render
-	 * @param  {Array} filteredListings
-	 * @return {Object} results
+	 * @param  {Array}  filteredListings Listings filtered by searched location
+	 * @return {Object} results          JSX of results
 	 */
 	createListingsIndex(filteredListings) {
 		let mappedListings = filteredListings.map(listing => (

@@ -21,19 +21,21 @@ class SearchForm extends Component {
 			place_lng : ''
 		}
 
-		this.handlePlace = this.handlePlace.bind(this);
-		this.handleSubmit = this.handleSubmit.bind(this);
+		this.handlePlace           = this.handlePlace.bind(this);
+		this.handleSubmit          = this.handleSubmit.bind(this);
+		this.handleStartDateChange = this.handleStartDateChange.bind(this);
+		this.handleEndDateChange   = this.handleEndDateChange.bind(this);
 	}
 
-	handlePlace = (place_id, place_lat, place_lng) => {
+	handlePlace = (placeId, placeLat, placeLng) => {
 		this.setState({
-			place_id  : place_id,
-			place_lat : place_lat,
-			place_lng : place_lng
+			place_id  : placeId,
+			place_lat : placeLat,
+			place_lng : placeLng
 		});
 	}
 
-	handleStartDateChange = date => {
+	handleStartDateChange(date) {
 		this.setState({
 			startDate: date
 		});
@@ -45,7 +47,7 @@ class SearchForm extends Component {
 		}
 	};
 
-	handleEndDateChange = date => {
+	handleEndDateChange(date) {
 		this.setState({
 			endDate: date
 		});
