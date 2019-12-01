@@ -12,6 +12,14 @@
   margin-right: 3%;
 }
 
+.navbar img {
+  padding-left: 2%;
+  padding-top: 1%;
+  height: 5%;
+  width: 5%;
+}
+
+
 /* Phone */
 @media only screen and (max-width: 600px) {
   .navbar a {

@@ -7,8 +7,6 @@ import ListingDetail from './components/ListingDetail';
 import MyBookings from './components/MyBookings';
 
 function App() {
-	const logoStyle = {};
-
 	return (
 		<div className='App'>
 			<Router>

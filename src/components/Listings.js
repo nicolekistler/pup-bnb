@@ -41,6 +41,29 @@ class Listings extends Component {
 		this.fetchListings(placeId, placeLat, placeLng);
 	}
 
+	render() {
+		let filteredListings = [];
+
+		if(this.state.listings) {
+			filteredListings = this.state.listings;
+		}
+
+		const results = this.createListingsIndex(filteredListings);
+
+		return (
+			<div id='main-listings-container'>
+				<div id='nav-container'>
+					<img src={logo} alt={''} />
+					<SearchBar onSelectPlace={this.handlePlaceChange}/>
+					<NavHeader show_logo={false}/>
+				</div>
+				<div>
+					{ this.state.fetchInProgress ? <Spinner /> : results }
+				</div>
+			</div>
+		);
+	}
+
 	/**
 	 * Handle when user searches place value
 	 * @param  {Number} placeId
@@ -87,58 +110,44 @@ class Listings extends Component {
 					place_lng       : placeLng
 				});
 			})
-			.catch(console.log('catch'));
+			.catch();
 	}
 
-	render() {
-		let filtered_listings = [];
-
-		if(this.state.listings) {
-			filtered_listings = this.state.listings;
-		}
-
-		/* Render listings index */
-		let mapped_listings = filtered_listings.map(listing => (
+	/**
+	 * Create listings index to render
+	 * @param  {Array} filteredListings
+	 * @return {Object} results
+	 */
+	createListingsIndex(filteredListings) {
+		let mappedListings = filteredListings.map(listing => (
 			<Listing listing={listing} key={listing.id}/>
 		));
 
-		/* If there are no listings at a given place, return a suggested place */
-		if(!mapped_listings.length) {
-			const suggestions = ['Brooklyn', 'Tokyo', 'Paris'];
+		/* If there are no listings at a given place, return a random suggested place */
+		if(!mappedListings.length) {
+			const suggestions = ['Manhattan', 'Tokyo', 'Paris'];
 			const randomSuggestion = suggestions[Math.floor(Math.random() * suggestions.length)];
 
-			mapped_listings =
+			mappedListings =
 			<div className='listing-container'>
 				<br/><br/>
 				We couldn't find anything matching your search. Try searching "{randomSuggestion}"
 			</div>;
 		}
 
-		return (
-			<div id='main-listings-container'>
-				<div id='nav-container'>
-					<img src={logo} />
-					<SearchBar onSelectPlace={this.handlePlaceChange}/>
-					<NavHeader/>
+		const results =
+			<div className='listings-container'>
+				<div className='results-container'>
+					<h1>Results</h1>
+					{mappedListings}
 				</div>
-				<div>
-					{ this.state.fetchInProgress ?
-						<Spinner /> :
-						<div className='listings-container'>
-							<div className='results-container'>
-								<h1>Results</h1>
-								{mapped_listings}
-							</div>
-							<div id='map-container'>
-								<Map place_lat={this.state.place_lat} place_lng={this.state.place_lng} listings={mapped_listings} />
-							</div>
-						</div>
-					}
+				<div id='map-container'>
+					<Map place_lat={this.state.place_lat} place_lng={this.state.place_lng} listings={mappedListings} />
 				</div>
-			</div>
-		);
-	}
+			</div>;
 
+		return results;
+	}
 }
 
 export default Listings;

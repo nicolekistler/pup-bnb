@@ -3,6 +3,7 @@ import LoginModal from './LoginModal';
 import RegistrationModal from './RegistrationModal';
 import { Link } from 'react-router-dom';
 import '../styles/NavHeader.css';
+import logo from '../assets/paw-print.png';
 
 class NavHeader extends Component {
 	constructor(props) {
@@ -11,6 +12,10 @@ class NavHeader extends Component {
 		this.showLoginModal = this.showLoginModal.bind(this);
 	}
 
+	/**
+	 * Show login modal
+	 * @param {Object} e
+	 */
 	showLoginModal(e) {
 		e.preventDefault();
 
@@ -19,6 +24,10 @@ class NavHeader extends Component {
 		modal.style.display = 'block';
 	}
 
+	/**
+	 * Show registration modal
+	 * @param {Object} e
+	 */
 	showRegistrationModal(e) {
 		e.preventDefault();
 
@@ -28,8 +37,15 @@ class NavHeader extends Component {
 	}
 
 	render() {
+		let logoDisplay = null;
+
+		if(this.props.show_logo) {
+			logoDisplay = <img src={logo} alt={''} />;
+		}
+
 		return (
 			<div className='navbar'>
+				{ logoDisplay }
 				<a href='/' onClick={this.showRegistrationModal}>Sign Up</a>
 				<a href='/' onClick={this.showLoginModal}>Login</a>
 				<Link to="/mybookings">My Bookings</Link>
@@ -40,6 +56,10 @@ class NavHeader extends Component {
 
 		);
 	}
+}
+
+NavHeader.defaultProps = {
+  show_logo: true
 }
 
 export default NavHeader;

@@ -70,7 +70,7 @@ class Map extends Component {
 					});
 				});
 			})
-			.catch(console.log('catch'));
+			.catch();
 	}
 
 	render() {

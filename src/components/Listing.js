@@ -25,7 +25,7 @@ class Listing extends Component {
 		return (
 			<div className='listing-container'>
 				<div className='listing-container-section'>
-					<img src={cuppyCake} />
+					<img src={cuppyCake} alt={''} />
 				</div>
 				<div className='listing-container-section'>
 					<a href='/' onClick={this.handleListingClick}>{this.props.listing.name}</a><br/>
