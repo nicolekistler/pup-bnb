@@ -60,6 +60,7 @@ class Listings extends Component {
 
 				const distance = google.maps.geometry.spherical.computeDistanceBetween(pointA, pointB) * 0.000621371;
 
+				console.log('IT WORKED');
 				return distance < 50;
 			});
 
@@ -79,12 +80,12 @@ class Listings extends Component {
 	 */
 	createListingsIndex(filteredListings) {
 		let mappedListings = filteredListings.map(listing => (
-			<Listing listing={listing} key={listing.id}/>
+			<Listing listing={listing} key={Math.floor(100000 + Math.random() * 900000)}/>
 		));
 
 		/* If there are no listings at a given place, return a random suggested place */
 		if(!mappedListings.length) {
-			const suggestions = ['Manhattan', 'Tokyo', 'Paris'];
+			const suggestions = ['Manhattan', 'Seoul', 'Tokyo', 'Paris'];
 			const randomSuggestion = suggestions[Math.floor(Math.random() * suggestions.length)];
 
 			mappedListings =

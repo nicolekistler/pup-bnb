@@ -12,16 +12,15 @@ class Listing extends Component {
 
 	render() {
 		return (
-			<div className='listing-container'>
+			<div className='listing-container' onClick={this.handleListingClick}>
 				<div className='listing-container-image'>
-					<img src={this.props.listing.images.preview} alt={''} />
+					<img src={this.props.listing.preview_img} alt={''} />
 				</div>
 				<div className='listing-container-section'>
-					<h4>{this.props.listing.type}</h4>
+					{this.props.listing.type}
 					<a href='/' onClick={this.handleListingClick}>{this.props.listing.name}</a>
-					{this.props.listing.city}<br/>
-					{`${this.props.listing.price_per_night}/night`}
-
+					<h5>{this.props.listing.city}</h5><br/><br/>
+					{/* <h4>{`${this.props.listing.price_per_night}/night`}</h4> */}
 				</div>
 			</div>
 		);
