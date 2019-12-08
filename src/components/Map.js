@@ -1,6 +1,7 @@
 /* global google */
 import React, { Component } from 'react';
 import '../styles/Listings.css';
+import listingData from '../data/ListingData';
 
 class Map extends Component {
 	constructor(props) {
@@ -70,19 +71,14 @@ class Map extends Component {
 	 * Render searched markers on map
 	 */
 	renderMarkers() {
-		fetch('http://nameless-shore-23594.herokuapp.com/listings')
-			.then(res => res.json())
-			.then(data => {
-				data.forEach(listing => {
-					new google.maps.Marker({
-						position: {lat: listing.lat,lng: listing.lng},
-						map: this.map,
-						title: 'Marker',
-						url: 'google.com'
-					});
-				});
-			})
-			.catch();
+		listingData.forEach(listing => {
+			new google.maps.Marker({
+				position: {lat: listing.lat,lng: listing.lng},
+				map: this.map,
+				title: 'Marker',
+				url: 'google.com'
+			});
+		});
 	}
 }
 

@@ -4,6 +4,11 @@ import NavHeader from './NavHeader';
 import '../styles/Home.css';
 
 class Home extends Component {
+	constructor(props) {
+		super(props);
+
+		document.title = `Pup Rentals, Adventures, and Treats`;
+	}
 
 	render() {
 		return (

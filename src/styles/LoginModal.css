@@ -63,6 +63,7 @@
 }
 
 .login-input {
+  background: none!important;
   outline: none;
   width: 300px!important;
   height: 50px!important;

@@ -5,6 +5,8 @@ class ListingDetail extends Component {
 	constructor(props) {
 		super(props);
 
+		document.title = `Listing • Pupbnb`;
+
 		if(!this.props.history.location.state) {
 			this.props.history.location.state = {
 				listing: ''

@@ -13,11 +13,15 @@ class Listing extends Component {
 	render() {
 		return (
 			<div className='listing-container'>
-				<div className='listing-container-section'>
-					<img src={cuppyCake} alt={''} />
+				<div className='listing-container-image'>
+					<img src={this.props.listing.images.preview} alt={''} />
 				</div>
 				<div className='listing-container-section'>
-					<a href='/' onClick={this.handleListingClick}>{this.props.listing.name}</a><br/>
+					<h4>{this.props.listing.type}</h4>
+					<a href='/' onClick={this.handleListingClick}>{this.props.listing.name}</a>
+					{this.props.listing.city}<br/>
+					{`${this.props.listing.price_per_night}/night`}
+
 				</div>
 			</div>
 		);

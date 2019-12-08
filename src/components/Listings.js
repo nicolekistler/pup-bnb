@@ -7,13 +7,17 @@ import Listing from './Listing';
 import NavHeader from './NavHeader';
 import '../styles/Listings.css';
 import logo from '../assets/paw-print.png';
+import { withRouter } from 'react-router';
+import listingData from '../data/ListingData';
 
 class Listings extends Component {
 	constructor(props) {
 		super(props);
 
+		document.title = 'Stays • Pupbnb';
+
 		this.state = {
-			fetchInProgress : true,
+			filterInProgress : true,
 			listings        : '',
 			place_id        : '',
 			place_lat       : '',
@@ -21,6 +25,7 @@ class Listings extends Component {
 		};
 
 		this.handlePlaceChange = this.handlePlaceChange.bind(this);
+		this.onClickLogo       = this.onClickLogo.bind(this);
 	}
 
 	componentDidMount() {
@@ -37,80 +42,34 @@ class Listings extends Component {
 		const placeLat = this.props.history.location.state.place_lat;
 		const placeLng = this.props.history.location.state.place_lng;
 
-		/* On mount, fetch listings */
-		this.fetchListings(placeId, placeLat, placeLng);
-	}
-
-	render() {
-		let filteredListings = [];
-
-		if(this.state.listings) {
-			filteredListings = this.state.listings;
-		}
-
-		const results = this.createListingsIndex(filteredListings);
-
-		return (
-			<div id='main-listings-container'>
-				<div id='nav-container'>
-					<img src={logo} alt={''} />
-					<SearchBar onSelectPlace={this.handlePlaceChange}/>
-					<NavHeader show_logo={false}/>
-				</div>
-				<div>
-					{ this.state.fetchInProgress ? <Spinner /> : results }
-				</div>
-			</div>
-		);
+		/* On mount, filter listings */
+		this.filterListings(placeId, placeLat, placeLng);
 	}
 
 	/**
-	 * Handle when user searches place value
-	 * @param  {Number} placeId  Google Maps place ID
-	 * @param  {Number} placeLat Place latitude
-	 * @param  {Number} placeLng Place longitude
-	 * @return {Void}
-	 */
-	handlePlaceChange(placeId, placeLat, placeLng) {
-		this.setState({
-			place_id  : placeId,
-			place_lat : placeLat,
-			place_lng : placeLng
-		});
-
-		/* Fetch listings */
-		this.fetchListings(placeId, placeLat, placeLng);
-	}
-
-	/**
-	 * Fetch listings and filter using distance
+	 * Filter listings using distance
 	 * @param  {Number} placeId  Google maps place ID
 	 * @param  {Number} placeLat Place latitude
 	 * @param  {Number} placeLng Place longitude
 	 * @return {Void}
 	 */
-	fetchListings(placeId, placeLat, placeLng) {
-		fetch('http://nameless-shore-23594.herokuapp.com/listings')
-			.then(res => res.json())
-			.then((data) => {
-				let filtered = data.filter((listing) => {
-					const pointA = new google.maps.LatLng(placeLat, placeLng);
-					const pointB = new google.maps.LatLng(listing.lat, listing.lng);
+	filterListings(placeId, placeLat, placeLng) {
+			const filtered = listingData.filter((listing) => {
+				const pointA = new google.maps.LatLng(placeLat, placeLng);
+				const pointB = new google.maps.LatLng(listing.lat, listing.lng);
 
-					const distance = google.maps.geometry.spherical.computeDistanceBetween(pointA, pointB) * 0.000621371;
+				const distance = google.maps.geometry.spherical.computeDistanceBetween(pointA, pointB) * 0.000621371;
 
-					return distance < 50;
-				});
+				return distance < 50;
+			});
 
-				this.setState({
-					listings        : filtered,
-					fetchInProgress : false,
-					place_id        : placeId,
-					place_lat       : placeLat,
-					place_lng       : placeLng
-				});
-			})
-			.catch();
+			this.setState({
+				listings         : filtered,
+				filterInProgress : false,
+				place_id         : placeId,
+				place_lat        : placeLat,
+				place_lng        : placeLng
+			});
 	}
 
 	/**
@@ -148,6 +107,53 @@ class Listings extends Component {
 
 		return results;
 	}
+
+	/**
+	 * Handle when user searches place value
+	 * @param  {Number} placeId  Google Maps place ID
+	 * @param  {Number} placeLat Place latitude
+	 * @param  {Number} placeLng Place longitude
+	 * @return {Void}
+	 */
+	handlePlaceChange(placeId, placeLat, placeLng) {
+		this.setState({
+			place_id  : placeId,
+			place_lat : placeLat,
+			place_lng : placeLng
+		});
+
+		/* Filter listings */
+		this.filterListings(placeId, placeLat, placeLng);
+	}
+
+	render() {
+		let filteredListings = [];
+
+		if(this.state.listings) {
+			filteredListings = this.state.listings;
+		}
+
+		const results = this.createListingsIndex(filteredListings);
+
+		return (
+			<div id='main-listings-container'>
+				<div id='nav-container'>
+					<img src={logo} alt={''}  onClick={this.onClickLogo}/>
+					<SearchBar onSelectPlace={this.handlePlaceChange}/>
+					<NavHeader show_logo={false}/>
+				</div>
+				<div>
+					{ this.state.filterInProgress ? <Spinner /> : results }
+				</div>
+			</div>
+		);
+	}
+
+	onClickLogo() {
+		this.props.history.push({
+			pathname: '/'
+		});
+	}
 }
 
-export default Listings;
+export default withRouter(Listings);

@@ -6,7 +6,6 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
 class SearchForm extends Component {
-
 	constructor(props) {
 		super(props);
 
