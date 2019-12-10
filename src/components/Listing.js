@@ -20,8 +20,8 @@ class Listing extends Component {
 					{this.props.listing.type}
 					<a href='/' onClick={this.handleListingClick}>{this.props.listing.name}</a>
 					<h5>{this.props.listing.city}</h5><br/><br/>
-					{/* <h4>{`${this.props.listing.price_per_night}/night`}</h4> */}
 				</div>
+					<div id='price_nightly'>{`${this.props.listing.price_per_night}/night`}</div>
 			</div>
 		);
 	}
