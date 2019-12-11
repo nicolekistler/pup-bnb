@@ -4,17 +4,16 @@
 }
 
 #nav-container {
+  height: 7vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 2vw;
   display: flex;
   flex-direction: row;
-  margin-top: 1%;
-  margin-left: 2%;
-  margin-bottom: 1%;
 }
 
 #nav-container img {
-  padding-right: 2%;
-  height: 5%;
-  width: 5%;
+  padding-right: 2vw;
 }
 
 #nav-container img:hover {
@@ -42,25 +41,28 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height:100%;
+  height: 91vh;
 }
 
 .results-container {
-  margin-top: 2%;
-  margin-left: 2%;
-  width: 70%;
-  height: 95vh;
+  margin-top: 4vh;
+  margin-left: 2vw;
+  width: 70vw;
+  height: 87vh;
   overflow: scroll;
 }
 
 #map-container {
-  width: 50%;
+  display: flex;
+  width: 60vw;
+  height: 91vh;
 }
 
 #listing-map {
-  height: 100vh;
+  display: flex;
+  height: 91vh;
   width: 100%;
-  margin-right: 5%;
+  margin-left: 3vw;
 }
 
 .listing-container {
@@ -68,7 +70,8 @@
   flex-direction: row;
   margin-bottom: 5%;
   margin-top: 5%;
-  margin-right: 5%;
+  margin-right: 5vw;
+  padding-right: 2%;
   border-top: rgb(227, 227, 227) solid 0.5px;
   height: 35%;
   width: 100%;
@@ -86,7 +89,6 @@
 
 #price_nightly {
   font-weight: 700!important;
-  /* color: #484848; */
   display: flex;
   align-items: flex-end;
   padding-right: 4%;
@@ -136,5 +138,3 @@
 .results-container::-webkit-scrollbar {
   display: none;
 }
-
-/* calc(100vh - 50px) */
