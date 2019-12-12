@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import NavHeader from './NavHeader';
+import logo from '../assets/paw-print.png';
+import '../styles/ListingDetail.css';
 
 class ListingDetail extends Component {
 	constructor(props) {
@@ -28,12 +30,17 @@ class ListingDetail extends Component {
 		const listing = this.state.listing;
 
 		return (
-			<div>
-				<NavHeader/>
-				<h3>{listing.name}</h3>
-				<h5>{listing.description}</h5>
-				<h5>{listing.price_per_night}</h5>
-				<button>Book this listing</button>
+			<div id='main_detail_container'>
+				<div id='nav-container'>
+					<img src={logo} alt={''}  onClick={this.onClickLogo}/>
+					<NavHeader show_logo={false}/>
+				</div>
+				<div id='image-container'>
+				</div>
+				<div id='center-container'>
+				<div id='listing-description-container'></div>
+				<div id='book-listing-container'></div>
+				</div>
 			</div>
 		);
 	}
