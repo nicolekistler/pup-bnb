@@ -1,0 +1,34 @@
+#main-detail-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+#image-container {
+  display: flex;
+  flex-direction: column;
+	border: solid 1px;
+  width: 100vw;
+  height: 50vh;
+}
+
+#center-container {
+	display: flex;
+	flex-direction: row;
+	width: 70vw;
+	height: 50vh;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	padding-top: 10vh;
+}
+
+#listing-description-container {
+	width: 45vw;
+	background-color: orchid;
+}
+
+#book-listing-container {
+	width: 25vw;
+	background-color: orange;
+}
