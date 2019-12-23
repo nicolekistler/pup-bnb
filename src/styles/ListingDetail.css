@@ -10,14 +10,14 @@
   flex-direction: column;
 	border: solid 1px;
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
 }
 
 #center-container {
 	display: flex;
 	flex-direction: row;
 	width: 70vw;
-	height: 50vh;
+	height: 100vh;
 	margin-left: 15vw;
 	margin-right: 15vw;
 	padding-top: 10vh;
@@ -25,10 +25,41 @@
 
 #listing-description-container {
 	width: 45vw;
-	background-color: orchid;
+}
+
+#description-title {
+	background-color: none;
+}
+
+#description-profile {
+	font-size: 14px;
+	height:10vh;
+	width:6vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+}
+
+#description-profile img {
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+}
+
+#description-top-section {
+	display: flex;
+	flex-direction: row;
+	background-color: none;
+}
+
+.description-section {
+	margin-top: 5vh;
+	padding-top:5vh;
+  border-top: rgb(227, 227, 227) solid 0.5px;
 }
 
 #book-listing-container {
-	width: 25vw;
-	background-color: orange;
+	width: 30vw;
+	height: 50vh;
+	margin-left:3vh;
+  border: rgb(227, 227, 227) solid 0.5px;
 }
