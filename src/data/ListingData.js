@@ -1,11 +1,11 @@
 module.exports = [{
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -36,7 +36,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -61,13 +61,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/bx5wArw.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -98,7 +98,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -129,7 +129,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -160,7 +160,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -191,7 +191,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -217,12 +217,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -253,7 +253,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -279,12 +279,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -315,7 +315,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -346,7 +346,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -377,7 +377,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -408,7 +408,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -434,12 +434,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -470,7 +470,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -501,7 +501,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -532,7 +532,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -563,7 +563,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -588,13 +588,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/CoiutVd.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -625,7 +625,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -651,12 +651,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -687,7 +687,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -712,13 +712,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/F1qsBWg.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -744,12 +744,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -780,7 +780,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -811,7 +811,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -836,13 +836,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/UN2AmZL.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -873,7 +873,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -904,7 +904,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -935,7 +935,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -960,13 +960,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/5UiW2Ya.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -997,7 +997,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -1023,12 +1023,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1059,7 +1059,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1090,7 +1090,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -1121,7 +1121,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -1152,7 +1152,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -1183,7 +1183,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -1209,12 +1209,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1240,12 +1240,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1276,7 +1276,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -1307,7 +1307,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -1333,12 +1333,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1369,7 +1369,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1400,7 +1400,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -1426,12 +1426,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1462,7 +1462,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -1493,7 +1493,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -1524,7 +1524,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -1550,12 +1550,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1586,7 +1586,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1617,7 +1617,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -1648,7 +1648,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -1674,12 +1674,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1704,13 +1704,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/Z53W8f6.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -1741,7 +1741,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -1772,7 +1772,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -1798,12 +1798,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1828,13 +1828,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/JsZoOgJ.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -1860,12 +1860,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1896,7 +1896,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -1927,7 +1927,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -1958,7 +1958,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -1984,12 +1984,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -2020,7 +2020,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -2051,7 +2051,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -2082,7 +2082,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -2107,13 +2107,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/UN2AmZL.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -2139,12 +2139,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -2175,7 +2175,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -2206,7 +2206,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -2237,7 +2237,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -2268,7 +2268,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -2294,12 +2294,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -2330,7 +2330,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -2361,7 +2361,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -2387,12 +2387,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -2423,7 +2423,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -2449,12 +2449,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -2485,7 +2485,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -2510,13 +2510,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/Lct3DRO.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -2547,7 +2547,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -2572,13 +2572,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/Ezn7kcU.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -2609,7 +2609,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -2640,7 +2640,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -2671,7 +2671,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -2702,7 +2702,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -2733,7 +2733,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -2759,12 +2759,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -2789,13 +2789,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/4R64qfm.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -2826,7 +2826,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -2851,13 +2851,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/CSzIfzA.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -2888,7 +2888,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -2919,7 +2919,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -2950,7 +2950,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -2981,7 +2981,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -3012,7 +3012,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -3043,7 +3043,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -3074,7 +3074,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -3105,7 +3105,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -3130,13 +3130,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/Ezn7kcU.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -3161,13 +3161,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/5UiW2Ya.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Beautiful and chic space with huge backyard",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -3198,7 +3198,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -3229,7 +3229,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -3260,7 +3260,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -3291,7 +3291,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -3322,7 +3322,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -3353,7 +3353,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -3378,13 +3378,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/HWqu8WC.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -3415,7 +3415,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -3446,7 +3446,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -3477,7 +3477,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -3508,7 +3508,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -3539,7 +3539,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -3570,7 +3570,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -3601,7 +3601,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -3632,7 +3632,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -3663,7 +3663,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -3694,7 +3694,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -3719,13 +3719,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/HWqu8WC.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -3756,7 +3756,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -3787,7 +3787,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -3818,7 +3818,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -3849,7 +3849,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -3880,7 +3880,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -3911,7 +3911,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -3942,7 +3942,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -3973,7 +3973,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -3998,13 +3998,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/qRYcfqF.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -4035,7 +4035,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -4060,13 +4060,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/UN2AmZL.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -4097,7 +4097,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -4128,7 +4128,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -4154,12 +4154,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -4190,7 +4190,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -4221,7 +4221,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -4252,7 +4252,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -4283,7 +4283,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -4314,7 +4314,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -4345,7 +4345,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -4376,7 +4376,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -4407,7 +4407,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -4438,7 +4438,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -4469,7 +4469,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -4500,7 +4500,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -4526,12 +4526,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -4557,12 +4557,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -4587,13 +4587,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/F1qsBWg.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -4624,7 +4624,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -4655,7 +4655,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -4686,7 +4686,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -4717,7 +4717,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -4748,7 +4748,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -4779,7 +4779,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -4804,13 +4804,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/HWqu8WC.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -4841,7 +4841,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -4872,7 +4872,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -4903,7 +4903,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -4934,7 +4934,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -4960,12 +4960,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -4996,7 +4996,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -5027,7 +5027,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -5058,7 +5058,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -5089,7 +5089,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -5120,7 +5120,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -5151,7 +5151,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -5177,12 +5177,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -5213,7 +5213,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -5238,13 +5238,13 @@ module.exports = [{
 	"preview_img": "https://i.imgur.com/UF1OtRQ.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -5275,7 +5275,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -5306,7 +5306,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -5337,7 +5337,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -5368,7 +5368,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -5394,12 +5394,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -5430,7 +5430,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -5461,7 +5461,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -5487,12 +5487,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -5518,12 +5518,12 @@ module.exports = [{
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -5544,7 +5544,7 @@ module.exports = [{
 	"type": "Entire Apartment",
 	"lat": 34.04,
 	"lng": -118.43,
-	"city": "Los Angeles, US",
+	"city": "Los Angeles, USA",
 	"preview_img": "https://i.imgur.com/CoiutVd.jpg"
 },
 {
@@ -5554,7 +5554,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -5575,7 +5575,7 @@ module.exports = [{
 	"type": "Entire Apartment",
 	"lat": 33.98,
 	"lng": -118.37,
-	"city": "Los Angeles, US",
+	"city": "Los Angeles, USA",
 	"preview_img": "https://i.imgur.com/Ezn7kcU.jpg"
 },
 {
@@ -5585,7 +5585,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -5606,7 +5606,7 @@ module.exports = [{
 	"type": "Private Room",
 	"lat": 34.1,
 	"lng": -118.29,
-	"city": "Los Angeles, US",
+	"city": "Los Angeles, USA",
 	"preview_img": "https://i.imgur.com/S2fqxi2.jpg"
 },
 {
@@ -5616,7 +5616,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -5637,17 +5637,17 @@ module.exports = [{
 	"type": "Home",
 	"lat": 34.06,
 	"lng": -118.45,
-	"city": "Los Angeles, US",
+	"city": "Los Angeles, USA",
 	"preview_img": "https://i.imgur.com/F6YX5gf.jpg"
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -5668,7 +5668,7 @@ module.exports = [{
 	"type": "Entire Apartment",
 	"lat": 37.77,
 	"lng": -122.43,
-	"city": "San Francisco, US",
+	"city": "San Francisco, USA",
 	"preview_img": "https://i.imgur.com/4R64qfm.jpg"
 },
 {
@@ -5678,7 +5678,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -5699,17 +5699,17 @@ module.exports = [{
 	"type": "Private Room",
 	"lat": 37.78,
 	"lng": -122.4,
-	"city": "San Francisco, US",
+	"city": "San Francisco, USA",
 	"preview_img": "https://i.imgur.com/xnMM6B1.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -5730,7 +5730,7 @@ module.exports = [{
 	"type": "Guestroom",
 	"lat": 37.78,
 	"lng": -122.43,
-	"city": "San Francisco, US",
+	"city": "San Francisco, USA",
 	"preview_img": "https://i.imgur.com/uPzZSfs.jpg"
 },
 {
@@ -5740,7 +5740,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -5761,17 +5761,17 @@ module.exports = [{
 	"type": "Guest House",
 	"lat": 37.73,
 	"lng": -122.48,
-	"city": "San Francisco, US",
+	"city": "San Francisco, USA",
 	"preview_img": "https://i.imgur.com/Lct3DRO.jpg"
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -5792,7 +5792,7 @@ module.exports = [{
 	"type": "Entire Apartment",
 	"lat": 25.8,
 	"lng": -80.28,
-	"city": "Miami, US",
+	"city": "Miami, USA",
 	"preview_img": "https://i.imgur.com/Lct3DRO.jpg"
 },
 {
@@ -5802,7 +5802,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -5823,7 +5823,7 @@ module.exports = [{
 	"type": "Entire Apartment",
 	"lat": 25.63,
 	"lng": -80.34,
-	"city": "Miami, US",
+	"city": "Miami, USA",
 	"preview_img": "https://i.imgur.com/GpUJupQ.jpg"
 },
 {
@@ -5833,7 +5833,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -5854,17 +5854,17 @@ module.exports = [{
 	"type": "Private Room",
 	"lat": 25.69,
 	"lng": -80.3,
-	"city": "Miami, US",
+	"city": "Miami, USA",
 	"preview_img": "https://i.imgur.com/BmpOAQa.jpg"
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -5885,7 +5885,7 @@ module.exports = [{
 	"type": "Entire Apartment",
 	"lat": 28.39,
 	"lng": -81.49,
-	"city": "Orlando, US",
+	"city": "Orlando, USA",
 	"preview_img": "https://i.imgur.com/S2fqxi2.jpg"
 },
 {
@@ -5895,7 +5895,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -5916,17 +5916,17 @@ module.exports = [{
 	"type": "Home",
 	"lat": 28.55,
 	"lng": -81.35,
-	"city": "Orlando, US",
+	"city": "Orlando, USA",
 	"preview_img": "https://i.imgur.com/Ezn7kcU.jpg"
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -5947,7 +5947,7 @@ module.exports = [{
 	"type": "Entire Apartment",
 	"lat": 28.48,
 	"lng": -81.46,
-	"city": "Orlando, US",
+	"city": "Orlando, USA",
 	"preview_img": "https://i.imgur.com/MNh2959.jpg"
 },
 {
@@ -5957,7 +5957,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
@@ -5978,7 +5978,7 @@ module.exports = [{
 	"type": "Entire Apartment",
 	"lat": 28.49,
 	"lng": -81.46,
-	"city": "Orlando, US",
+	"city": "Orlando, USA",
 	"preview_img": "https://i.imgur.com/Z53W8f6.jpg"
 },
 {
@@ -5988,7 +5988,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -6009,17 +6009,17 @@ module.exports = [{
 	"type": "Guest House",
 	"lat": 21.3,
 	"lng": -157.86,
-	"city": "Honolulu, US",
+	"city": "Honolulu, USA",
 	"preview_img": "https://i.imgur.com/bx5wArw.jpg"
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -6040,17 +6040,17 @@ module.exports = [{
 	"type": "Entire Apartment",
 	"lat": 21.29,
 	"lng": -157.84,
-	"city": "Honolulu, US",
+	"city": "Honolulu, USA",
 	"preview_img": "https://i.imgur.com/4R64qfm.jpg"
 },
 {
-	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo,central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby",
+	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
@@ -6071,17 +6071,17 @@ module.exports = [{
 	"type": "Guestroom",
 	"lat": 21.33,
 	"lng": -157.92,
-	"city": "Honolulu, US",
+	"city": "Honolulu, USA",
 	"preview_img": "https://i.imgur.com/CoiutVd.jpg"
 },
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
-	"name": "Amazing apartment at the Heart of the City",
+	"name": "Amazing Apartment at the Heart of the City",
 	"amenities": {
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
@@ -6102,7 +6102,7 @@ module.exports = [{
 	"type": "Entire Apartment",
 	"lat": 21.34,
 	"lng": -157.92,
-	"city": "Honolulu, US",
+	"city": "Honolulu, USA",
 	"preview_img": "https://i.imgur.com/xnMM6B1.jpg"
 },
 {
@@ -6112,7 +6112,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
@@ -6133,7 +6133,7 @@ module.exports = [{
 	"type": "Home",
 	"lat": 36.04,
 	"lng": -115.15,
-	"city": "Las Vegas, US",
+	"city": "Las Vegas, USA",
 	"preview_img": "https://i.imgur.com/HWqu8WC.jpg"
 },
 {
@@ -6143,7 +6143,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
@@ -6164,7 +6164,7 @@ module.exports = [{
 	"type": "Guest House",
 	"lat": 36.13,
 	"lng": -115.17,
-	"city": "Las Vegas, US",
+	"city": "Las Vegas, USA",
 	"preview_img": "https://i.imgur.com/A7SEyDS.jpg"
 },
 {
@@ -6174,7 +6174,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -6195,7 +6195,7 @@ module.exports = [{
 	"type": "Private Room",
 	"lat": 36.22,
 	"lng": -115.28,
-	"city": "Las Vegas, US",
+	"city": "Las Vegas, USA",
 	"preview_img": "https://i.imgur.com/bx5wArw.jpg"
 },
 {
@@ -6205,7 +6205,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": "Dante",
 	"price_per_night": "$96",
@@ -6226,7 +6226,7 @@ module.exports = [{
 	"type": "Private Room",
 	"lat": 36.11,
 	"lng": -115.18,
-	"city": "Las Vegas, US",
+	"city": "Las Vegas, USA",
 	"preview_img": "https://i.imgur.com/aK8nE8Q.jpg"
 },
 {
@@ -6234,7 +6234,7 @@ module.exports = [{
 	"lng": -74.0014219,
 	"id": 1,
 	"name": 'Manhattan Lux Pup Loft',
-	"description": `Downtown, the best bit of Manhattan. One of the LARGEST spaces in NYC on PupBnB.
+	"description": `Downtown, the best bit of Manhattan. One of the LARGEST spaces in NYC on Pup Bnb.
 		Your pup's own PRIVATE bathroom & PRIVATE bedroom, a terrace off the bedroom,
 		near to subways/buses, restaurants, bars, real luxury right in the middle of things.
 		Just read our 500+ 5-STAR REVIEWS and you will see why we are SUPER-HOSTS and why you
@@ -6244,10 +6244,10 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Ashley',
-	"city": 'New York, US',
+	"city": 'New York, USA',
 	"price_per_night": '$430',
 	"reviews": [{
 		"name": 'Rex',
@@ -6277,10 +6277,10 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": 'Jane',
-	"city": 'New York, US',
+	"city": 'New York, USA',
 	"price_per_night": '$387',
 	"reviews": [{
 		"name": 'Stella',
@@ -6321,10 +6321,10 @@ module.exports = [{
 		"unlimited_treats": false,
 		"spa": false,
 		"socks": true,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'George',
-	"city": 'New York, US',
+	"city": 'New York, USA',
 	"price_per_night": '$120',
 	"reviews": [{
 		"name": 'Ottis',
@@ -6347,10 +6347,10 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": false,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Linda',
-	"city": 'New York, US',
+	"city": 'New York, USA',
 	"price_per_night": '$230',
 	"reviews": [{
 		"name": 'Jerry',
@@ -6379,10 +6379,10 @@ module.exports = [{
 		"unlimited_treats": false,
 		"spa": true,
 		"socks": false,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Greg',
-	"city": 'New York, US',
+	"city": 'New York, USA',
 	"price_per_night": '$113',
 	"reviews": [{
 		"name": 'Stella',
@@ -6424,10 +6424,10 @@ module.exports = [{
 		"unlimited_treats": false,
 		"spa": true,
 		"socks": false,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Matilda',
-	"city": 'New York, US',
+	"city": 'New York, USA',
 	"price_per_night": '$213',
 	"reviews": [{
 		"name": 'Andy',
@@ -6448,7 +6448,7 @@ module.exports = [{
 	"lng": 2.354327,
 	"id": 7,
 	"name": 'Champs-Élysées Golden triangle flat with mezzanine',
-	"description": `Newly renovated little apartment with mezzanine, compact and design,well-equipped, direct elevator.
+	"description": `Newly renovated little apartment with mezzanine, compact and design, well-equipped, direct elevator.
 		Located in the center of Paris, surrounded by Avenue Champs Élysées, Avenue George V and Avenue Montaigne, called the Golden Triangle area.`,
 
 	"preview_img": 'https://i.imgur.com/kZnO5Su.jpg',
@@ -6456,7 +6456,7 @@ module.exports = [{
 		"unlimited_treats": false,
 		"spa": true,
 		"socks": false,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Nicole',
 	"city": 'Paris, FR',
@@ -6487,7 +6487,7 @@ module.exports = [{
 		"unlimited_treats": false,
 		"spa": false,
 		"socks": true,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Luka',
 	"city": 'Paris, FR',
@@ -6532,7 +6532,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": false,
 		"socks": true,
-		"sticks": false
+		"wifi": false
 	},
 	"host_name": 'Pierre',
 	"city": 'Paris, FR',
@@ -6579,7 +6579,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Jay',
 	"city": 'Tokyo, JP',
@@ -6611,7 +6611,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": false,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Masami',
 	"city": 'Tokyo, JP',
@@ -6642,7 +6642,7 @@ module.exports = [{
 		"unlimited_treats": false,
 		"spa": false,
 		"socks": true,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Kenichi',
 	"city": 'Tokyo, JP',
@@ -6686,7 +6686,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Sherline',
 	"city": 'Bali, ID',
@@ -6718,7 +6718,7 @@ module.exports = [{
 		"unlimited_treats": false,
 		"spa": false,
 		"socks": true,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Wayan',
 	"city": 'Bali, ID',
@@ -6762,7 +6762,7 @@ module.exports = [{
 		"unlimited_treats": true,
 		"spa": true,
 		"socks": true,
-		"sticks": true
+		"wifi": true
 	},
 	"host_name": 'Ashley',
 	"city": 'Bali, ID',
