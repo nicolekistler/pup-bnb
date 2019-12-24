@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavHeader from './NavHeader';
 import '../styles/ListingDetail.css';
+import listingData from '../data/ListingData';
 
 class ListingDetail extends Component {
 	constructor(props) {
@@ -26,17 +27,19 @@ class ListingDetail extends Component {
 	}
 
 	render() {
-		const listing = this.state.listing;
+		let listing = this.state.listing;
+
+		if(!listing) {
+			listing = listingData[0];
+		}
 
 		return (
 			<div id='main_detail_container'>
 				<NavHeader/>
-
 				{this.renderBanner()}
 
 				<div id='center-container'>
 					{this.renderDescription(listing)}
-
 					{this.renderBookingWidget(listing)}
 				</div>
 
@@ -48,12 +51,24 @@ class ListingDetail extends Component {
 	 *
 	 */
 	renderBanner() {
-		return <div id='image-container'>
-			<img src='https://i.imgur.com/9E9IiXd.jpg' alt={''} />
-			<img src='https://i.imgur.com/B5It0If.jpg' alt={''} />
-			<img src='https://i.imgur.com/TtHZRLv.jpg' alt={''} />
-			<img src='https://i.imgur.com/LfzkEQh.jpg' alt={''} />
-		</div>;
+		const banner = [];
+
+		const bannerImages = [
+			'https://i.imgur.com/9E9IiXd.jpg',
+			'https://i.imgur.com/B5It0If.jpg',
+			'https://i.imgur.com/TtHZRLv.jpg',
+			'https://i.imgur.com/LfzkEQh.jpg'
+		];
+
+		bannerImages.forEach(image => {
+			banner.push(<img src={image} alt={''} />);
+		});
+
+		return (
+			<div id='image-container'>
+				{banner}
+			</div>
+		);
 	}
 
 	/**
@@ -81,7 +96,7 @@ class ListingDetail extends Component {
 			<div>
 				<div id='description-top-section'>
 					<div id='description-title'>
-						<h1>{listing.name}</h1>
+						{listing.name}
 					</div>
 					<div id='description-profile'>
 							<img src='https://i.imgur.com/L7tks5k.png' alt={''} />
@@ -89,11 +104,10 @@ class ListingDetail extends Component {
 							{listing.type}
 					</div>
 				</div>
-				<div>
-					<br/>
-					<img src="https://i.imgur.com/wFoW6qn.png"/> {listing.city}
-					<br/>
-					<br/>
+				<div className='description-headline'>
+					<img src="https://i.imgur.com/wFoW6qn.png" alt={''}/> {listing.city}
+				</div>
+				<div className='description-headline'>
 					<img src="https://i.imgur.com/b2Wlh9z.png"/> Hosted by {listing.host_name} J.
 				</div>
 
@@ -109,17 +123,41 @@ class ListingDetail extends Component {
 	 *
 	 */
 	renderAmenities() {
+		const amenitySection = [];
+
+		const amenities = [{
+				img: 'https://i.imgur.com/U3f1Mbc.png',
+				name: 'Spa',
+			},
+			{
+				img: 'https://i.imgur.com/M95H2hg.png',
+				name: 'Wifi',
+			},
+			{
+				img: 'https://i.imgur.com/dIJUW36.png',
+				name: 'Treats',
+			},
+			{
+				img: 'https://i.imgur.com/PYxAqhk.png',
+				name: 'Socks',
+			}
+		];
+
+		amenities.forEach(amenity => {
+			amenitySection.push(
+				<div className='amenity'>
+					<img src={amenity.img} alt={''}/> {amenity.name}
+				</div>
+			);
+		});
+
 		return (
 			<div className='description-section'>
-				<h4>Amenities</h4><br/>
-				<div className='amenity'></div>
+				<h4>Amenities</h4>
+				<div id='amenities'>
+					{amenitySection}
+				</div>
 
-				{/* // https://i.imgur.com/gfuFGui.png spa
-				// https://i.imgur.com/i6UBNP3.png wifi
-				// https://i.imgur.com/bTLt3sl.png treats
-				// https://i.imgur.com/1PpTdML.png sock */}
-
-				Blah blah
 			</div>
 		);
 	}

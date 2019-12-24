@@ -21,16 +21,6 @@
 	transition: -ms-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, -webkit-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, opacity 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s !important;
 }
 
-/* #image-container img:hover {
-	max-width:110%;
-	max-height:110%;
-} */
-
-#description-profile img {
-	height:50px;
-	width:50px;
-}
-
 #center-container {
 	display: flex;
 	flex-direction: row;
@@ -47,35 +37,73 @@
 }
 
 #description-title {
-	background-color: none;
+	font-size: 2.2vw;
+	font-weight: 650!important;
+	width: 30vw;
 }
 
 #description-profile {
-	font-size: 14px;
+	font-size: 1vw;
 	margin-left: 3vw;
 	margin-right: 3vw;
 	text-align: center;
 }
 
 #description-profile img {
-	height:50px;
-	width:50px;
+	height:1vh;
+	width:1vh;
+}
+
+#description-profile img {
+	height:7vh;
+	width:7vh;
 }
 
 #description-top-section {
 	display: flex;
 	flex-direction: row;
-	background-color: none;
+}
+
+.description-headline {
+	display: flex;
+	flex-direction: row;
+	width: 15vw;
+	padding: 1vh;
+}
+
+.description-headline img {
+	align-self: start;
+	padding-right: 1vh;
 }
 
 .description-section {
+	display: flex;
+	flex-direction: column;
 	margin-top: 5vh;
 	padding-top:5vh;
   border-top: rgb(227, 227, 227) solid 0.5px;
-	letter-spacing: .5px;
+	letter-spacing: .3px;
 	line-height: 1.5;
 	font-weight: 300!important;
 	text-align: justify;
+
+}
+
+#amenities {
+	display: flex;
+	flex-direction: row;
+}
+
+.amenity {
+	margin-top: 5vh;
+	margin-bottom: 3vh;
+	display: flex;
+	width: 15vw;
+}
+
+.amenity img {
+	margin-right: .5vw;
+	align-self: start;
 }
 
 #book-listing-container {
