@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavHeader from './NavHeader';
 import '../styles/ListingDetail.css';
 import listingData from '../data/ListingData';
+import Map from './Map.js';
 
 class ListingDetail extends Component {
 	constructor(props) {
@@ -78,11 +79,11 @@ class ListingDetail extends Component {
 	renderDescription(listing) {
 		return (
 			<div id='listing-description-container'>
-				{this.renderMainSection(listing)}
+				{this.renderTopDescriptionSection(listing)}
 
 				{this.renderAmenities()}
 
-				{this.renderReviews()}
+				{this.renderReviews(listing)}
 			</div>
 		);
 	}
@@ -91,7 +92,7 @@ class ListingDetail extends Component {
 	 *
 	 * @param {*} listing
 	 */
-	renderMainSection(listing) {
+	renderTopDescriptionSection(listing) {
 		return (
 			<div>
 				<div id='description-top-section'>
@@ -165,11 +166,40 @@ class ListingDetail extends Component {
 	/**
 	 *
 	 */
-	renderReviews() {
+	renderReviews(listing) {
+		const reviews = [];
+
+		listing.reviews.forEach(review => {
+			reviews.push(
+				<div id='review-container'>
+					<div id='review-top'>
+						<div>
+							<img src='https://i.imgur.com/MOGJayg.png' alt={''}/>
+						</div>
+						<div>
+							<span>{review.name}</span>
+							<span>{review.date}</span>
+						</div>
+					</div>
+					<span>{review.description}</span>
+
+				</div>
+			);
+		});
+
 		return (
-			<div className='description-section'>
-				<h4>Reviews</h4><br/>
-				Bloop bloop
+			<div>
+				<div className='description-section'>
+					<h4>Reviews</h4><br/>
+						{reviews}
+				</div>
+
+				<div className='description-section'>
+					<h4>Cancellations</h4><br/>
+					Free cancellation for 48 hours.
+					After that, cancel up to 24 hours before check-in and get a full refund,
+					minus the service fee.
+				</div>
 			</div>
 		);
 	}

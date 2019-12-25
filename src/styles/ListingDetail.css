@@ -25,21 +25,21 @@
 	display: flex;
 	flex-direction: row;
 	width: 70vw;
-	height: 100vh;
+	height: 180vh;
 	margin-left: 15vw;
 	margin-right: 15vw;
 	padding-top: 10vh;
-	margin-bottom: 20vh;
+	margin-bottom: 30vh;
 }
 
 #listing-description-container {
-	width: 45vw;
+	width: 40vw;
 }
 
 #description-title {
 	font-size: 2.2vw;
 	font-weight: 650!important;
-	width: 30vw;
+	width: 35vw;
 }
 
 #description-profile {
@@ -86,24 +86,59 @@
 	line-height: 1.5;
 	font-weight: 300!important;
 	text-align: justify;
-
 }
 
 #amenities {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .amenity {
-	margin-top: 5vh;
+	margin-top: 4vh;
 	margin-bottom: 3vh;
 	display: flex;
-	width: 15vw;
+	width: 20vw;
 }
 
 .amenity img {
 	margin-right: .5vw;
 	align-self: start;
+}
+
+#review-container {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 4vh;
+	padding:3vh;
+  border-radius: 4px;
+	fill: rgb(255, 255, 255) !important;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px 0px !important;
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-radius:12px;
+	border-color: rgb(255, 255, 255) !important;
+}
+
+#review-container span {
+	margin-top: .5vw;
+	display: flex;
+}
+
+#review-container img {
+	height: 7vh;
+	width: 7vh;
+	margin-right: 1vw;
+	margin-bottom: 1vw;
+	margin-top: 1.2vh;
+	align-self: start;
+}
+
+#review-top {
+	display: flex;
+	flex-direction: row;
+	font-size: 2vh;
+	font-weight:500;
 }
 
 #book-listing-container {
