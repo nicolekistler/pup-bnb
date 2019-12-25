@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import NavHeader from './NavHeader';
 import '../styles/ListingDetail.css';
 import listingData from '../data/ListingData';
-import Map from './Map.js';
 
 class ListingDetail extends Component {
 	constructor(props) {
@@ -37,37 +36,16 @@ class ListingDetail extends Component {
 		return (
 			<div id='main_detail_container'>
 				<NavHeader/>
-				{this.renderBanner()}
+
+				<div id='banner-container'>
+					<div id='inner-banner-container'/>
+				</div>
 
 				<div id='center-container'>
 					{this.renderDescription(listing)}
 					{this.renderBookingWidget(listing)}
 				</div>
 
-			</div>
-		);
-	}
-
-	/**
-	 *
-	 */
-	renderBanner() {
-		const banner = [];
-
-		const bannerImages = [
-			'https://i.imgur.com/9E9IiXd.jpg',
-			'https://i.imgur.com/B5It0If.jpg',
-			'https://i.imgur.com/TtHZRLv.jpg',
-			'https://i.imgur.com/LfzkEQh.jpg'
-		];
-
-		bannerImages.forEach(image => {
-			banner.push(<img src={image} alt={''} />);
-		});
-
-		return (
-			<div id='image-container'>
-				{banner}
 			</div>
 		);
 	}
@@ -109,7 +87,7 @@ class ListingDetail extends Component {
 					<img src="https://i.imgur.com/wFoW6qn.png" alt={''}/> {listing.city}
 				</div>
 				<div className='description-headline'>
-					<img src="https://i.imgur.com/b2Wlh9z.png"/> Hosted by {listing.host_name} J.
+					<img src="https://i.imgur.com/b2Wlh9z.png" alt={''}/> Hosted by {listing.host_name} J.
 				</div>
 
 				<div className='description-section'>
