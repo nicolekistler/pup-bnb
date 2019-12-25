@@ -1,12 +1,6 @@
 module.exports = [{
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -63,12 +57,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -94,12 +82,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -125,12 +107,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -156,12 +132,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -218,12 +188,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -249,12 +213,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -280,12 +238,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -311,12 +263,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -342,12 +288,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -373,12 +313,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -435,12 +369,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -466,12 +394,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -497,12 +419,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -559,12 +475,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -590,12 +500,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -621,12 +525,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -652,12 +550,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -683,12 +575,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -714,12 +600,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -745,12 +625,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -776,12 +650,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -807,12 +675,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -838,12 +700,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -869,12 +725,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -900,12 +750,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -931,12 +775,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -962,12 +800,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -1024,12 +856,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1055,12 +881,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1086,12 +906,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -1117,12 +931,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -1179,12 +987,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -1210,12 +1012,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1241,12 +1037,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1272,12 +1062,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -1334,12 +1118,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1365,12 +1143,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1396,12 +1168,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -1427,12 +1193,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1551,12 +1311,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1582,12 +1336,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1675,12 +1423,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1706,12 +1448,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -1799,12 +1535,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1830,12 +1560,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -1861,12 +1585,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1892,12 +1610,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -1923,12 +1635,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -1954,12 +1660,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -1985,12 +1685,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -2016,12 +1710,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -2047,12 +1735,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -2078,12 +1760,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -2109,12 +1785,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -2140,12 +1810,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -2171,12 +1835,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -2202,12 +1860,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -2233,12 +1885,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -2295,12 +1941,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -2326,12 +1966,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -2357,12 +1991,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -2388,12 +2016,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -2419,12 +2041,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -2450,12 +2066,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -2481,12 +2091,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -2512,12 +2116,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -2543,12 +2141,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -2574,12 +2166,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -2698,12 +2284,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -2729,12 +2309,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -2760,12 +2334,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -2791,12 +2359,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -2822,12 +2384,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -2853,12 +2409,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -2977,12 +2527,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -3039,12 +2583,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -3070,12 +2608,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -3101,12 +2633,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -3132,12 +2658,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -3163,12 +2683,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -3194,12 +2708,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -3225,12 +2733,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -3287,12 +2789,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -3318,12 +2814,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -3349,12 +2839,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -3380,12 +2864,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -3473,12 +2951,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -3504,12 +2976,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -3535,12 +3001,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -3597,12 +3057,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -3628,12 +3082,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -3659,12 +3107,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -3690,12 +3132,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -3721,12 +3157,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -3752,12 +3182,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -3783,12 +3207,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -3814,12 +3232,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -3907,12 +3319,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -3938,12 +3344,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -3969,12 +3369,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -4000,12 +3394,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -4031,12 +3419,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -4062,12 +3444,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -4093,12 +3469,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -4124,12 +3494,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -4155,12 +3519,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -4186,12 +3544,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -4217,12 +3569,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -4248,12 +3594,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -4279,12 +3619,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -4310,12 +3644,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -4341,12 +3669,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -4372,12 +3694,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -4434,12 +3750,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -4465,12 +3775,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -4496,12 +3800,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -4527,12 +3825,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -4558,12 +3850,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -4589,12 +3875,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -4620,12 +3900,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -4651,12 +3925,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -4682,12 +3950,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -4713,12 +3975,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -4775,12 +4031,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -4806,12 +4056,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -4899,12 +4143,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -4961,12 +4199,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -5023,12 +4255,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -5054,12 +4280,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -5085,12 +4305,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -5116,12 +4330,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -5147,12 +4355,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -5178,12 +4380,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -5240,12 +4436,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -5302,12 +4492,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -5364,12 +4548,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -5395,12 +4573,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -5426,12 +4598,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -5488,12 +4654,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -5519,12 +4679,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -5550,12 +4704,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -5612,12 +4760,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -5643,12 +4785,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -5705,12 +4841,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -5736,12 +4866,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -5767,12 +4891,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -5798,12 +4916,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Beautiful and chic space with huge backyard",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -5860,12 +4972,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -5891,12 +4997,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -5922,12 +5022,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -5953,12 +5047,6 @@ module.exports = [{
 {
 	"description": "Come play fetch at this amazing, centrally located apartment! Right near all of the wonderful attractions the city has to offer, with the inside of the apartment boasting plenty of sunshine and fun things to do.",
 	"name": "Amazing  apartment with plenty of outdoor space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Kip",
 	"price_per_night": "$113",
 	"reviews": [
@@ -5984,12 +5072,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -6015,12 +5097,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -6046,12 +5122,6 @@ module.exports = [{
 {
 	"description": "If you want to make your stay special, this is the home to book! PRIVATE duplex condo, central heat/air, a backyard fire hydrant and an en suite bathroom. Gorgeous tree-lined street and plenty of fun places nearby!",
 	"name": "Huge room with tons of space",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Mack",
 	"price_per_night": "$75",
 	"reviews": [
@@ -6077,12 +5147,6 @@ module.exports = [{
 {
 	"description": "Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
 	"name": "Amazing Apartment at the Heart of the City",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Jane",
 	"price_per_night": "$83",
 	"reviews": [
@@ -6108,12 +5172,6 @@ module.exports = [{
 {
 	"description": "Pupper home with the most amazing features including unlimited beef jerky and blankets. Beautiful view of the city and plenty of outdoor space to play, book this now because it won't last!",
 	"name": "Beautiful Home, centrally located",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Sarah",
 	"price_per_night": "$140",
 	"reviews": [
@@ -6139,12 +5197,6 @@ module.exports = [{
 {
 	"description": "Explore the heart of this beautiful city from this designer studio. Unwind in this boutique, open-concept space with carefully selected decor or gaze out across the city from the rooftop terrace with 360-degree views, a BBQ, and a seating area.",
 	"name": "Beautiful Studio in the Heart of the City with BBQ and Outdoor Spaces",
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": "Ellie",
 	"price_per_night": "$176",
 	"reviews": [
@@ -6235,17 +5287,11 @@ module.exports = [{
 	"id": 1,
 	"name": 'Manhattan Lux Pup Loft',
 	"description": `Downtown, the best bit of Manhattan. One of the LARGEST spaces in NYC on Pup Bnb.
-		Your pup's own PRIVATE bathroom & PRIVATE bedroom, a terrace off the bedroom,
+		Your pup's own private bathroom & private bedroom, a terrace off the bedroom,
 		near to subways/buses, restaurants, bars, real luxury right in the middle of things.
-		Just read our 500+ 5-STAR REVIEWS and you will see why we are SUPER-HOSTS and why you
+		Just read our reviews and you will see why we are SUPER-HOSTS and why you
 		will just love this place, like other guests, I promise.`,
 	"preview_img": 'https://i.imgur.com/F1qsBWg.jpg',
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": true,
-		"socks": true,
-		"wifi": true
-	},
 	"host_name": 'Ashley',
 	"city": 'New York, USA',
 	"price_per_night": '$430',
@@ -6273,12 +5319,6 @@ module.exports = [{
 		Weekly maid included. This is a 325 SQ ft. (a little over 30 SQ mt.)
 		studio, with 7.5 ft ceilings (2.3 mt). Tiny, but truly AMAZING.`,
 	"preview_img": 'https://i.imgur.com/bx5wArw.jpg',
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": 'Jane',
 	"city": 'New York, USA',
 	"price_per_night": '$387',
@@ -6317,12 +5357,6 @@ module.exports = [{
 	On the first floor, but set above street level, I am offering two bedrooms, bathroom,
 	kitchen with a dining/living area, plus ROKU tv, WIFI, and a pupperccino maker.`,
 	"preview_img": 'https://i.imgur.com/Ezn7kcU.jpg',
-	"amenities": {
-		"unlimited_treats": false,
-		"spa": false,
-		"socks": true,
-		"wifi": true
-	},
 	"host_name": 'George',
 	"city": 'New York, USA',
 	"price_per_night": '$120',
@@ -6343,12 +5377,6 @@ module.exports = [{
 		Accessible to all forms of transportation, bus/subway. Great for short or long term stays.
 		This is not a party house please be respectful of the neighbor Thank U`,
 	"preview_img": 'https://i.imgur.com/aK8nE8Q.jpg',
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": true,
-		"socks": false,
-		"wifi": true
-	},
 	"host_name": 'Linda',
 	"city": 'New York, USA',
 	"price_per_night": '$230',
@@ -6375,12 +5403,6 @@ module.exports = [{
 		Not far from shops and cafes and close to the Bushwick border.
 		20 minute commute to manhattan.`,
 	"preview_img": 'https://i.imgur.com/HWqu8WC.jpg',
-	"amenities": {
-		"unlimited_treats": false,
-		"spa": true,
-		"socks": false,
-		"wifi": true
-	},
 	"host_name": 'Greg',
 	"city": 'New York, USA',
 	"price_per_night": '$113',
@@ -6420,12 +5442,6 @@ module.exports = [{
 		our one bedroom/ one bath is comfortable, quirky and fully stocked for you!
 		A perfect green patch in the middle of the concrete jungle.`,
 	"preview_img": 'https://i.imgur.com/xnMM6B1.jpg',
-	"amenities": {
-		"unlimited_treats": false,
-		"spa": true,
-		"socks": false,
-		"wifi": true
-	},
 	"host_name": 'Matilda',
 	"city": 'New York, USA',
 	"price_per_night": '$213',
@@ -6452,12 +5468,6 @@ module.exports = [{
 		Located in the center of Paris, surrounded by Avenue Champs Élysées, Avenue George V and Avenue Montaigne, called the Golden Triangle area.`,
 
 	"preview_img": 'https://i.imgur.com/kZnO5Su.jpg',
-	"amenities": {
-		"unlimited_treats": false,
-		"spa": true,
-		"socks": false,
-		"wifi": true
-	},
 	"host_name": 'Nicole',
 	"city": 'Paris, FR',
 	"price_per_night": '$213',
@@ -6483,12 +5493,6 @@ module.exports = [{
 	"description": `Studio neuf entièrement équipé : canapé lit très confortable (couchage quotidien, manipulation très facile), salle de bains moderne et fonctionnelle (douche spacieuse, radiateur sèche serviette, machine à laver séchante), cuisine toute équipée (réfrigérateur, four mixte, lave vaisselle, plaque à induction, hotte,
 	vaisselle et ustensiles, machine à café, bouilloire), placards, vestiaires et penderies, télévision, WI-FI et table bar pouvant servir pour les repas ou en tant qu'espace de travail.`,
 	"preview_img": 'https://i.imgur.com/BmpOAQa.jpg',
-	"amenities": {
-		"unlimited_treats": false,
-		"spa": false,
-		"socks": true,
-		"wifi": true
-	},
 	"host_name": 'Luka',
 	"city": 'Paris, FR',
 	"price_per_night": '$120',
@@ -6528,12 +5532,6 @@ module.exports = [{
 	ideally located to explore Paris without staying in a crowded touristic area.`,
 
 	"preview_img": 'https://i.imgur.com/4R64qfm.jpg',
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": false,
-		"socks": true,
-		"wifi": false
-	},
 	"host_name": 'Pierre',
 	"city": 'Paris, FR',
 	"price_per_night": '$387',
@@ -6575,12 +5573,6 @@ module.exports = [{
 	It is tourist friendly town includes a shopping street.`,
 
 	"preview_img": 'https://i.imgur.com/gBxO0EH.jpg',
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": true,
-		"socks": true,
-		"wifi": true
-	},
 	"host_name": 'Jay',
 	"city": 'Tokyo, JP',
 	"price_per_night": '$430',
@@ -6607,12 +5599,6 @@ module.exports = [{
 	the apartment is also footsteps away from the famous Tokyo Tower and Shiba Park.`,
 
 	"preview_img": 'https://i.imgur.com/UF1OtRQ.jpg',
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": true,
-		"socks": false,
-		"wifi": true
-	},
 	"host_name": 'Masami',
 	"city": 'Tokyo, JP',
 	"price_per_night": '$230',
@@ -6638,12 +5624,6 @@ module.exports = [{
 	"description": `It's on the 1 floor of a 6-story building. This designer's apartment is 9 minutes' walk from the MACHIYA station.`,
 
 	"preview_img": 'https://i.imgur.com/UN2AmZL.jpg',
-	"amenities": {
-		"unlimited_treats": false,
-		"spa": false,
-		"socks": true,
-		"wifi": true
-	},
 	"host_name": 'Kenichi',
 	"city": 'Tokyo, JP',
 	"price_per_night": '$120',
@@ -6682,12 +5662,6 @@ module.exports = [{
 	and enjoy the view of our beautiful garden (900m2) with pool.`,
 
 	"preview_img": 'https://i.imgur.com/CSzIfzA.jpg',
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": true,
-		"socks": true,
-		"wifi": true
-	},
 	"host_name": 'Sherline',
 	"city": 'Bali, ID',
 	"price_per_night": '$430',
@@ -6714,12 +5688,6 @@ module.exports = [{
 	and enjoy the incredible view over the quiet rice terraces from your bedroom.`,
 
 	"preview_img": 'https://i.imgur.com/F6YX5gf.jpg',
-	"amenities": {
-		"unlimited_treats": false,
-		"spa": false,
-		"socks": true,
-		"wifi": true
-	},
 	"host_name": 'Wayan',
 	"city": 'Bali, ID',
 	"price_per_night": '$120',
@@ -6758,12 +5726,6 @@ module.exports = [{
 	All-bamboo house is surrounded by nature, situated at beautiful riverside among rice fields.`,
 
 	"preview_img": 'https://i.imgur.com/GpUJupQ.jpg',
-	"amenities": {
-		"unlimited_treats": true,
-		"spa": true,
-		"socks": true,
-		"wifi": true
-	},
 	"host_name": 'Ashley',
 	"city": 'Bali, ID',
 	"price_per_night": '$430',
