@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import '../styles/Listings.css';
-import cuppyCake from '../assets/cuppy-cake.jpg';
 
 class Listing extends Component {
 	constructor(props) {
