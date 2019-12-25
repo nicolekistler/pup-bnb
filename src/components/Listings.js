@@ -60,7 +60,6 @@ class Listings extends Component {
 
 				const distance = google.maps.geometry.spherical.computeDistanceBetween(pointA, pointB) * 0.000621371;
 
-				console.log('IT WORKED');
 				return distance < 50;
 			});
 
