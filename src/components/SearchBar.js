@@ -25,7 +25,7 @@ class SearchBar extends Component {
 	}
 
 	handlePlaceChanged() {
-		const place    = this.autocomplete.getPlace();
+		const place = this.autocomplete.getPlace();
 
 		const place_id = place.place_id;
 

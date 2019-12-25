@@ -20,6 +20,7 @@ class SearchForm extends Component {
 			place_lng : ''
 		}
 
+		this.handleKeyDown         = this.handleKeyDown.bind(this);
 		this.handlePlace           = this.handlePlace.bind(this);
 		this.handleSubmit          = this.handleSubmit.bind(this);
 		this.handleStartDateChange = this.handleStartDateChange.bind(this);
@@ -65,6 +66,26 @@ class SearchForm extends Component {
 		});
 	}
 
+	handleKeyDown(e) {
+		if (e.key === 'Enter') {
+			e.preventDefault();
+
+			if(this.state.place_id) {
+				this.props.history.push({
+					pathname: '/listings',
+					state: {
+						place_id  : this.state.place_id,
+						place_lat : this.state.place_lat,
+						place_lng : this.state.place_lng
+					}
+				});
+			}
+			else {
+				document.getElementById('autocomplete').focus();
+			}
+		}
+	}
+
 	render() {
 		return (
 			<div id='search-container'>
@@ -72,7 +93,7 @@ class SearchForm extends Component {
 					<h5>Book unique places for your dog to stay.</h5>
 				</div>
 				<div id='form-container'>
-					<form onSubmit={this.handleSubmit}>
+					<form onSubmit={this.handleSubmit} onKeyDown={this.handleKeyDown}>
 						<label>WHERE</label><br/>
 						<SearchBar onSelectPlace={this.handlePlace}/>
 
