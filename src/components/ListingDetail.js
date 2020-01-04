@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavHeader from './NavHeader';
+import DateWidget from './DateWidget';
 import '../styles/ListingDetail.css';
 import listingData from '../data/ListingData';
 
@@ -57,7 +58,7 @@ class ListingDetail extends Component {
 	renderDescription(listing) {
 		return (
 			<div id='listing-description-container'>
-				{this.renderTopDescriptionSection(listing)}
+				{this.renderTopSection(listing)}
 
 				{this.renderAmenities()}
 
@@ -70,7 +71,7 @@ class ListingDetail extends Component {
 	 *
 	 * @param {*} listing
 	 */
-	renderTopDescriptionSection(listing) {
+	renderTopSection(listing) {
 		return (
 			<div>
 				<div id='description-top-section'>
@@ -194,6 +195,8 @@ class ListingDetail extends Component {
 				<button>
 					<b>Reserve</b>
 				</button>
+				<div id="test"><DateWidget/></div>
+
 			</div>
 		);
 	}

@@ -169,3 +169,7 @@
   border: none;
   border-radius: 4px;
 }
+
+#test input {
+	background-color: orchid;
+}

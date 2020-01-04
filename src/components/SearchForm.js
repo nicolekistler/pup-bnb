@@ -4,6 +4,7 @@ import SearchBar from './SearchBar';
 import { withRouter } from 'react-router';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import DateWidget from './DateWidget';
 
 class SearchForm extends Component {
 	constructor(props) {
@@ -98,19 +99,7 @@ class SearchForm extends Component {
 						<SearchBar onSelectPlace={this.handlePlace}/>
 
 						<label>WHEN</label><br/>
-						<div id='date-picker-container'>
-							<DatePicker
-								selectsStart
-								selected={this.state.startDate}
-								onChange={this.handleStartDateChange}
-							/>
-							<DatePicker
-								selectsEnd
-								selected={this.state.endDate}
-								onChange={this.handleEndDateChange}
-								minDate={this.state.startDate}
-							/>
-						</div>
+						<DateWidget/>
 
 						<button id='search-form-submit'>
 							<b>Search</b>
