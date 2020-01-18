@@ -2,7 +2,6 @@ import React, { Component }  from 'react';
 import 'react-dates/initialize';
 import SearchBar from './SearchBar';
 import { withRouter } from 'react-router';
-import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import DateWidget from './DateWidget';
 

@@ -3,6 +3,7 @@ import NavHeader from './NavHeader';
 import DateWidget from './DateWidget';
 import '../styles/ListingDetail.css';
 import listingData from '../data/ListingData';
+import star from '../assets/star.png';
 
 class ListingDetail extends Component {
 	constructor(props) {
@@ -52,8 +53,8 @@ class ListingDetail extends Component {
 	}
 
 	/**
-	 *
-	 * @param {*} listing
+	 * Render listing description
+	 * @param {Object} listing
 	 */
 	renderDescription(listing) {
 		return (
@@ -68,8 +69,8 @@ class ListingDetail extends Component {
 	}
 
 	/**
-	 *
-	 * @param {*} listing
+	 * Render listing top section
+	 * @param {Object} listing
 	 */
 	renderTopSection(listing) {
 		return (
@@ -99,9 +100,7 @@ class ListingDetail extends Component {
 		);
 	}
 
-	/**
-	 *
-	 */
+	/* Render amenities */
 	renderAmenities() {
 		const amenitySection = [];
 
@@ -143,7 +142,8 @@ class ListingDetail extends Component {
 	}
 
 	/**
-	 *
+	 * Render reviews
+	 * @param {Object} listing
 	 */
 	renderReviews(listing) {
 		const reviews = [];
@@ -184,19 +184,24 @@ class ListingDetail extends Component {
 	}
 
 	/**
-	 *
-	 * @param {*} listing
+	 * Render booking widget
+	 * @param {Object} listing
 	 */
 	renderBookingWidget(listing) {
 		return (
 			<div id='book-listing-container'>
-				Price: {listing.price_per_night} per night<br/>
-				4.75 (5 reviews)<br/>
-				<button>
-					<b>Reserve</b>
-				</button>
-				<div id="test"><DateWidget/></div>
-
+				<div id='reserve-info'>
+					<span id='listing-price'>{listing.price_per_night}</span><span className='info-small'> per night</span><br/>
+					<span className='info-small'><img src={star} alt={''}/> 4.5 (2 Reviews)</span><br/>
+				</div>
+				<div id='reserve-date'>
+					<label>Dates</label>
+						<DateWidget/>
+					</div>
+					<button id='reserve-button'>
+						<b>Reserve</b>
+					</button>
+				<label id='demo-label'>Demo purposes only</label>
 			</div>
 		);
 	}
