@@ -52,6 +52,7 @@
   padding: 0 0 0 0!important;
   float: none;
   cursor: pointer;
+  font-size: 2vh;
 }
 
 #login-button {

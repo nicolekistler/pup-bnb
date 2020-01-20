@@ -67,7 +67,7 @@ class RegistrationModal extends Component {
 							<b>Sign Up</b>
 						</button>
 						<div id='login'>
-							Already have a Pupbnb account? <a onClick={this.triggerLogin}>Login!</a>
+							Already have a Pupbnb account? <a onClick={this.triggerLogin}>Login</a>
 						</div>
 					</div>
 				</div>
