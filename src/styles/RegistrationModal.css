@@ -2,10 +2,10 @@
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 15vh;
   left: 0;
   top: 0;
-  overflow: auto;
+  overflow: hidden;
   height: 100%;
   width: 100%;
   background-color: rgb(0,0,0);
@@ -13,22 +13,66 @@
 }
 
 #registration-modal-content {
-  height: 95%;
-  width: 45%;
+  height: 80vh;
+  width: 35vw;
   background-color: #fefefe;
   margin: auto;
-  padding: 3px;
   border: 1px solid #888;
   border-radius: 4px;
+  font-size: 2.5vh;
   box-shadow: 0 16px 40px rgba(0,0,0,0.25);
+  border-bottom: rgb(227, 227, 227) solid 0.5px;
+}
+
+#registration-content {
+  /* height: 75vh;
+  width: 35vw; */
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-top: 16vh;
+  font-size: 2.5vh!important;
+}
+
+#registration-content label {
+  font-weight: 800;
+  font-size: 2vh;
+  color: #484848;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.registration-input {
+  background: none!important;
+  outline: none;
+  width: 20vw!important;
+  height: 6vh!important;
+  border: 1px solid rgb(231, 231, 231);
+  color: #484848;
+  font-size: 2.5vh;
+  padding: 1.5vh;
+  box-sizing: border-box;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+#registration-button {
+  background-color: #FF5A5F;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  width: 20vw;
+  font-size: 2.5vh;
+  line-height: 24px;
 }
 
 .close {
   color: #aaaaaa;
   float: right;
-  font-size: 28px;
-  padding-right: 4%;
-  padding-top: 2%;
+  margin-top: 1.5vh;
+  margin-right: 1.3vw;
+  font-size: 5vh;
   font-weight: bold;
 }
 
@@ -37,42 +81,4 @@
   color: #000;
   text-decoration: none;
   cursor: pointer;
-}
-
-#registration-content {
-  margin-left: 30%;
-  margin-top: 10%;
-}
-
-#registration-content label {
-  font-weight: 800;
-  font-size: 12px;
-  color: #484848;
-  letter-spacing: 1px;
-  margin-bottom: 8px;
-}
-
-#registration-button {
-  background-color: #FF5A5F;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 300px;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.registration-input {
-  outline: none;
-  background: none!important;
-  width: 300px!important;
-  height: 50px!important;
-  border: 1px solid rgb(231, 231, 231);
-  color: #484848;
-  font-size: 16px;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-bottom: 15px;
 }

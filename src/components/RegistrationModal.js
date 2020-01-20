@@ -5,10 +5,21 @@ class RegistrationModal extends Component {
 	constructor(props) {
 		super(props);
 
-		this.hideRegistrationModal = this.hideRegistrationModal.bind(this);
+		this.handleClose = this.handleClose.bind(this);
+		this.handleBackgroundClick = this.handleBackgroundClick.bind(this);
 	}
 
-	hideRegistrationModal(e) {
+	handleBackgroundClick(e) {
+		e.preventDefault();
+
+		const modal = document.getElementById('registration-modal');
+
+		if (e.target == modal) {
+			modal.style.display = 'none';
+		}
+	}
+
+	handleClose(e) {
 		e.preventDefault();
 
 		const modal = document.getElementById('registration-modal');
@@ -25,22 +36,19 @@ class RegistrationModal extends Component {
 	render() {
 		return (
 			<div>
-				<div id='registration-modal'>
+				<div id='registration-modal' onClick={this.handleBackgroundClick}>
 				<div id='registration-modal-content'>
-					<span className='close' onClick={this.hideRegistrationModal}>&times;</span>
+					<span className='close' onClick={this.handleClose}>&times;</span>
 					<div id='registration-content'>
 
 						<label>USERNAME</label><br/>
 						<input className='registration-input' placeholder='Username' type='text'></input><br/><br/>
 
-						<label>FIRST NAME</label><br/>
-						<input className='registration-input' placeholder='First Name' type='text'></input><br/><br/>
-
-						<label>LAST NAME</label><br/>
-						<input className='registration-input' placeholder='Last Name' type='text'></input><br/><br/>
-
 						<label>PASSWORD</label><br/>
-						<input className='registration-input' placeholder='Create a Password' type='password'></input><br/><br/>
+						<input className='registration-input' placeholder='Password' type='password'></input><br/><br/>
+
+						<label>RE-ENTER PASSWORD</label><br/>
+						<input className='registration-input' placeholder='Password' type='password'></input><br/><br/>
 
 						<button id='registration-button' onClick={this.handleRegistration}>
 							<b>Sign Up</b>

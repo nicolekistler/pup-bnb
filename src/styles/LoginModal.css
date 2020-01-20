@@ -2,31 +2,87 @@
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 15vh;
   left: 0;
   top: 0;
-  overflow: auto;
+  overflow: hidden;
   height: 100%;
   width: 100%;
-  background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
 }
 
 #login-modal-content {
-  height: 500px;
-  width: 500px;
+  height: 75vh;
+  width: 35vw;
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
   border-radius: 4px;
+  font-size: 2.5vh;
   box-shadow: 0 16px 40px rgba(0,0,0,0.25);
+}
+
+#login-content {
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-top: 12vh;
+  font-size: 2.5vh!important;
+}
+
+#login-content label {
+  font-weight: 800;
+  font-size: 2vh;
+  color: #484848;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+#sign-up {
+  height: 10vh;
+  padding-top: 2vh;
+  width: 20vw;
+  border-top: rgb(227, 227, 227) solid 0.5px;
+  font-size: 2vh;
+}
+
+#sign-up a{
+  color:rgb(0, 132, 137)!important;
+  margin: 0 0 0 0!important;
+  padding: 0 0 0 0!important;
+  float: none;
+  cursor: pointer;
+}
+
+#login-button {
+  background-color: #FF5A5F;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  width: 20vw;
+  font-size: 2.5vh;
+  line-height: 24px;
+}
+
+.login-input {
+  background: none!important;
+  outline: none;
+  width: 20vw!important;
+  height: 7vh!important;
+  border: 1px solid rgb(231, 231, 231);
+  color: #484848;
+  font-size: 2.5vh;
+  padding: 1.5vh;
+  box-sizing: border-box;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
 }
 
 .close {
   color: #aaaaaa;
-  float: right;
-  font-size: 28px;
+  font-size: 5vh;
   font-weight: bold;
 }
 
@@ -35,42 +91,4 @@
   color: #000;
   text-decoration: none;
   cursor: pointer;
-}
-
-#login-content {
-  margin-left: 20%;
-  margin-top: 20%;
-}
-
-#login-content label {
-  font-weight: 800;
-  font-size: 12px;
-  color: #484848;
-  letter-spacing: 1px;
-  margin-bottom: 8px;
-}
-
-#login-button {
-  background-color: #FF5A5F;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 300px;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.login-input {
-  background: none!important;
-  outline: none;
-  width: 300px!important;
-  height: 50px!important;
-  border: 1px solid rgb(231, 231, 231);
-  color: #484848;
-  font-size: 16px;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-bottom: 15px;
 }
