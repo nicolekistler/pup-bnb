@@ -5,11 +5,12 @@ class LoginModal extends Component {
 	constructor(props) {
 		super(props);
 
-		this.handleClose = this.handleClose.bind(this);
-		this.handleBackgroundClick = this.handleBackgroundClick.bind(this);
+		this.handleLoginClose    = this.handleLoginClose.bind(this);
+		this.handleLoginBGClick  = this.handleLoginBGClick.bind(this);
+		this.triggerRegistration = this.triggerRegistration.bind(this);
 	}
 
-	handleBackgroundClick(e) {
+	handleLoginBGClick(e) {
 		e.preventDefault();
 
 		const modal = document.getElementById('login-modal');
@@ -19,18 +20,12 @@ class LoginModal extends Component {
 		}
 	}
 
-	handleClose(e) {
+	handleLoginClose(e) {
 		e.preventDefault();
 
 		const modal = document.getElementById('login-modal');
 
 		modal.style.display = 'none';
-	}
-
-	handleLogin(e) {
-		e.preventDefault();
-
-		// Foo
 	}
 
 	triggerRegistration(e) {
@@ -45,12 +40,18 @@ class LoginModal extends Component {
 		modal.style.display = 'block';
 	}
 
+	handleLogin(e) {
+		e.preventDefault();
+
+		// Foo
+	}
+
 	render() {
 		return (
 			<div>
-				<div id='login-modal' onClick={this.handleBackgroundClick}>
+				<div id='login-modal' onClick={this.handleLoginBGClick}>
 					<div id='login-modal-content'>
-						<span className='close' onClick={this.handleClose}>&times;</span>
+						<span className='close' onClick={this.handleLoginClose}>&times;</span>
 						<div id='login-content'>
 							<label>USERNAME</label><br/>
 							<input className='login-input' placeholder='Username' type='text'></input><br/><br/>

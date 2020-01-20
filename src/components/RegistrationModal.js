@@ -5,11 +5,20 @@ class RegistrationModal extends Component {
 	constructor(props) {
 		super(props);
 
-		this.handleClose = this.handleClose.bind(this);
-		this.handleBackgroundClick = this.handleBackgroundClick.bind(this);
+		this.handleRegistrationClose   = this.handleRegistrationClose.bind(this);
+		this.handleRegistrationBGClick = this.handleRegistrationBGClick.bind(this);
+		this.triggerLogin              = this.triggerLogin.bind(this);
 	}
 
-	handleBackgroundClick(e) {
+	handleRegistrationClose(e) {
+		e.preventDefault();
+
+		const modal = document.getElementById('registration-modal');
+
+		modal.style.display = 'none';
+	}
+
+	handleRegistrationBGClick(e) {
 		e.preventDefault();
 
 		const modal = document.getElementById('registration-modal');
@@ -19,12 +28,16 @@ class RegistrationModal extends Component {
 		}
 	}
 
-	handleClose(e) {
+	triggerLogin(e) {
 		e.preventDefault();
 
-		const modal = document.getElementById('registration-modal');
+		let modal = document.getElementById('registration-modal');
 
 		modal.style.display = 'none';
+
+		modal = document.getElementById('login-modal');
+
+		modal.style.display = 'block';
 	}
 
 	handleRegistration(e) {
@@ -36,9 +49,9 @@ class RegistrationModal extends Component {
 	render() {
 		return (
 			<div>
-				<div id='registration-modal' onClick={this.handleBackgroundClick}>
+				<div id='registration-modal' onClick={this.handleRegistrationBGClick}>
 				<div id='registration-modal-content'>
-					<span className='close' onClick={this.handleClose}>&times;</span>
+					<span className='close' onClick={this.handleRegistrationClose}>&times;</span>
 					<div id='registration-content'>
 
 						<label>USERNAME</label><br/>
@@ -52,7 +65,10 @@ class RegistrationModal extends Component {
 
 						<button id='registration-button' onClick={this.handleRegistration}>
 							<b>Sign Up</b>
-						</button><br/><br/>
+						</button>
+						<div id='login'>
+							Already have a Pupbnb account? <a onClick={this.triggerLogin}>Login!</a>
+						</div>
 					</div>
 				</div>
 				</div>
