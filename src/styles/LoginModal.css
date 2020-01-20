@@ -55,7 +55,7 @@
   font-size: 2vh;
 }
 
-#login-button {
+#form-submit {
   background-color: #FF5A5F;
   color: white;
   border: none;
@@ -65,6 +65,7 @@
   width: 20vw;
   font-size: 2.5vh;
   line-height: 24px;
+  margin-bottom: 3vh;
 }
 
 .login-input {

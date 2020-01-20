@@ -7,7 +7,7 @@ class RegistrationModal extends Component {
 
 		this.handleRegistrationClose   = this.handleRegistrationClose.bind(this);
 		this.handleRegistrationBGClick = this.handleRegistrationBGClick.bind(this);
-		this.triggerLogin              = this.triggerLogin.bind(this);
+		this.triggerLoginModal         = this.triggerLoginModal.bind(this);
 	}
 
 	handleRegistrationClose(e) {
@@ -23,12 +23,12 @@ class RegistrationModal extends Component {
 
 		const modal = document.getElementById('registration-modal');
 
-		if (e.target == modal) {
+		if (e.target === modal) {
 			modal.style.display = 'none';
 		}
 	}
 
-	triggerLogin(e) {
+	triggerLoginModal(e) {
 		e.preventDefault();
 
 		let modal = document.getElementById('registration-modal');
@@ -67,7 +67,7 @@ class RegistrationModal extends Component {
 							<b>Sign Up</b>
 						</button>
 						<div id='login'>
-							Already have a Pupbnb account? <a onClick={this.triggerLogin}>Login</a>
+							Already have a Pupbnb account? <a href='' onClick={this.triggerLoginModal}>Login</a>
 						</div>
 					</div>
 				</div>

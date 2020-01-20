@@ -1,13 +1,25 @@
 import React, { Component } from 'react';
 import '../styles/LoginModal.css';
+import AuthService from './AuthService';
+import { withRouter } from 'react-router';
 
 class LoginModal extends Component {
 	constructor(props) {
 		super(props);
 
+		this.state = {
+			username: null,
+			password: null
+		};
+
 		this.handleLoginClose    = this.handleLoginClose.bind(this);
 		this.handleLoginBGClick  = this.handleLoginBGClick.bind(this);
 		this.triggerRegistration = this.triggerRegistration.bind(this);
+
+		this.handleChange = this.handleChange.bind(this);
+		this.handleLogin  = this.handleLogin.bind(this);
+
+		this.Auth = new AuthService();
 	}
 
 	handleLoginBGClick(e) {
@@ -15,7 +27,7 @@ class LoginModal extends Component {
 
 		const modal = document.getElementById('login-modal');
 
-		if (e.target == modal) {
+		if (e.target === modal) {
 			modal.style.display = 'none';
 		}
 	}
@@ -40,10 +52,28 @@ class LoginModal extends Component {
 		modal.style.display = 'block';
 	}
 
-	handleLogin(e) {
+	handleChange(e){
+		this.setState(
+			{
+				[e.target.name]: e.target.value
+			}
+		)
+	}
+
+	handleLogin(e){
 		e.preventDefault();
 
-		// Foo
+		if(this.state.username && this.state.password) {
+			this.Auth.login(this.state.username, this.state.password)
+				.then(res => {
+					this.handleLoginClose(e);
+
+					this.props.history.push('/MyBookings');
+				})
+				.catch(err =>{
+					alert(err);
+				});
+		}
 	}
 
 	render() {
@@ -53,13 +83,29 @@ class LoginModal extends Component {
 					<div id='login-modal-content'>
 						<span className='close' onClick={this.handleLoginClose}>&times;</span>
 						<div id='login-content'>
-							<label>USERNAME</label><br/>
-							<input className='login-input' placeholder='Username' type='text'></input><br/><br/>
-							<label>PASSWORD</label><br/>
-							<input className='login-input' placeholder='Password' type='password'></input><br/><br/>
-							<button id='login-button' onClick={this.handleLogin}>
-								<b>Log in</b>
-							</button><br/><br/>
+							<label>USERNAME</label>
+							<input
+								className='login-input'
+								placeholder='Username'
+								type='text'
+								name='username'
+								onChange={this.handleChange}
+							/>
+
+							<label>PASSWORD</label>
+							<input
+								className='login-input'
+								placeholder='Password'
+								type='password'
+								name='password'
+								onChange={this.handleChange}
+							/>
+							<input
+								id="form-submit"
+								value="Log In"
+								type="submit"
+								onClick={this.handleLogin}
+							/>
 							<div id='sign-up'>
 								Don't have an account? <a onClick={this.triggerRegistration}>Sign up!</a>
 							</div>
@@ -71,4 +117,4 @@ class LoginModal extends Component {
 	}
 }
 
-export default LoginModal;
+export default withRouter(LoginModal);

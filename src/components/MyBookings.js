@@ -8,6 +8,7 @@ class MyBookings extends Component {
 		return (
 			<div>
 				<NavHeader/>
+				Logged in!!!
 			</div>
 		);
 	}

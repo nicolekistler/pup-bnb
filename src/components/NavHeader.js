@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import '../styles/NavHeader.css';
 import logo from '../assets/paw-print.png';
 import { withRouter } from 'react-router';
+import AuthService from './AuthService';
 
 class NavHeader extends Component {
 	constructor(props) {
@@ -12,6 +13,9 @@ class NavHeader extends Component {
 
 		this.showLoginModal = this.showLoginModal.bind(this);
 		this.onClickLogo = this.onClickLogo.bind(this);
+
+		this.handleLogout = this.handleLogout.bind(this);
+		this.Auth = new AuthService();
 	}
 
 	/**
@@ -44,21 +48,46 @@ class NavHeader extends Component {
 		});
 	}
 
+	handleLogout(e){
+		e.preventDefault();
+
+		this.Auth.logout();
+
+		if(this.Auth.loggedIn()) {
+			console.log('test');
+		}
+
+		this.props.history.push('/');
+	}
+
 	render() {
-		let logoDisplay = null;
+		let logoDisplay, links = null;
 
 		if(this.props.show_logo) {
 			logoDisplay = <img src={logo} alt={''} onClick={this.onClickLogo}/>;
 		}
 
+		if(this.Auth.loggedIn()) {
+			links =
+			<React.Fragment>
+				<a href='/' onClick={this.handleLogout}>Sign Out</a>
+				<Link to='/mybookings'>My Bookings</Link>
+				<a href='/'>Home</a>
+			</React.Fragment>;
+		}
+		else {
+			links =
+			<React.Fragment>
+				<a href='/' onClick={this.showRegistrationModal}>Sign Up</a>
+				<a href='/' onClick={this.showLoginModal}>Login</a>
+				<a href='/'>Home</a>
+			</React.Fragment>;
+		}
+
 		return (
 			<div className='navbar'>
 				{ logoDisplay }
-				<a href='/' onClick={this.showRegistrationModal}>Sign Up</a>
-				<a href='/' onClick={this.showLoginModal}>Login</a>
-				{/* <a href='/' onClick={this.showLoginModal}>Sign Out</a> */}
-				{/* <Link to='/mybookings'>My Bookings</Link> */}
-				<a href='/'>Home</a>
+				{ links }
 			<LoginModal/>
 			<RegistrationModal/>
 			</div>
