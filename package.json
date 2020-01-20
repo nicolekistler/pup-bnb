@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.6.3",
+    "jwt-decode": "^2.2.0",
     "moment": "^2.24.0",
     "react": "^16.10.2",
     "react-datepicker": "^2.10.0",
