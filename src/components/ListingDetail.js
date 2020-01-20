@@ -86,10 +86,10 @@ class ListingDetail extends Component {
 					</div>
 				</div>
 				<div className='description-headline'>
-					<img src="https://i.imgur.com/wFoW6qn.png" alt={''}/> {listing.city}
+					<img src='https://i.imgur.com/wFoW6qn.png' alt={''}/> {listing.city}
 				</div>
 				<div className='description-headline'>
-					<img src="https://i.imgur.com/b2Wlh9z.png" alt={''}/> Hosted by {listing.host_name} J.
+					<img src='https://i.imgur.com/b2Wlh9z.png' alt={''}/> Hosted by {listing.host_name} J.
 				</div>
 
 				<div className='description-section'>

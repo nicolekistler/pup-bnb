@@ -126,6 +126,12 @@ class Listings extends Component {
 		this.filterListings(placeId, placeLat, placeLng);
 	}
 
+	onClickLogo() {
+		this.props.history.push({
+			pathname: '/'
+		});
+	}
+
 	render() {
 		let filteredListings = [];
 
@@ -147,12 +153,6 @@ class Listings extends Component {
 				</div>
 			</div>
 		);
-	}
-
-	onClickLogo() {
-		this.props.history.push({
-			pathname: '/'
-		});
 	}
 }
 
