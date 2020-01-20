@@ -57,7 +57,7 @@ class NavHeader extends Component {
 				<a href='/' onClick={this.showRegistrationModal}>Sign Up</a>
 				<a href='/' onClick={this.showLoginModal}>Login</a>
 				{/* <a href='/' onClick={this.showLoginModal}>Sign Out</a> */}
-				{/* <Link to="/mybookings">My Bookings</Link> */}
+				{/* <Link to='/mybookings'>My Bookings</Link> */}
 				<a href='/'>Home</a>
 			<LoginModal/>
 			<RegistrationModal/>
