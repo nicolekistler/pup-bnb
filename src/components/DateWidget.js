@@ -38,8 +38,6 @@ class DateWidget extends Component {
 	};
 
 	render() {
-		console.log('test');
-
 		return (
 			<div id='date-picker-container'>
 				<DatePicker
