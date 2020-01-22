@@ -82,6 +82,10 @@
   margin-bottom: 3vh;
 }
 
+.login-input:focus {
+  border: 1px solid rgb(0, 132, 137);
+}
+
 .close {
   color: #aaaaaa;
   font-size: 5vh;
