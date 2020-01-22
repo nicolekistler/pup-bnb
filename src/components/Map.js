@@ -16,7 +16,6 @@ class Map extends Component {
 			center : this.center,
 			zoom   : 11,
 		}
-
 	}
 
 	componentDidMount() {
@@ -51,6 +50,20 @@ class Map extends Component {
 
 	}
 
+	/**
+	 * Render searched markers on map
+	 */
+	renderMarkers() {
+		listingData.forEach(listing => {
+			new google.maps.Marker({
+				position: {lat: listing.lat,lng: listing.lng},
+				map: this.map,
+				title: 'Marker',
+				url: 'google.com'
+			});
+		});
+	}
+
 	componentDidUpdate() {
 		/* If either the lat or long changes, reposition the map */
 		if (this.center.lat !== this.props.place_lat || this.center.lng !== this.props.place_lng) {
@@ -65,20 +78,6 @@ class Map extends Component {
 		return (
 			<div id='listing-map' ref={map => this.init = map}></div>
 		);
-	}
-
-	/**
-	 * Render searched markers on map
-	 */
-	renderMarkers() {
-		listingData.forEach(listing => {
-			new google.maps.Marker({
-				position: {lat: listing.lat,lng: listing.lng},
-				map: this.map,
-				title: 'Marker',
-				url: 'google.com'
-			});
-		});
 	}
 }
 

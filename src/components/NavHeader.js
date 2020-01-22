@@ -18,10 +18,7 @@ class NavHeader extends Component {
 		this.Auth = new AuthService();
 	}
 
-	/**
-	 * Show login modal
-	 * @param {Object} e
-	 */
+	/* Show login modal */
 	showLoginModal(e) {
 		e.preventDefault();
 
@@ -30,10 +27,7 @@ class NavHeader extends Component {
 		modal.style.display = 'block';
 	}
 
-	/**
-	 * Show registration modal
-	 * @param {Object} e
-	 */
+	/* Show registration modal */
 	showRegistrationModal(e) {
 		e.preventDefault();
 
@@ -42,22 +36,20 @@ class NavHeader extends Component {
 		modal.style.display = 'block';
 	}
 
-	onClickLogo() {
-		this.props.history.push({
-			pathname: '/'
-		});
-	}
-
+	/* Handle user logging out */
 	handleLogout(e){
 		e.preventDefault();
 
 		this.Auth.logout();
 
-		if(this.Auth.loggedIn()) {
-			console.log('test');
-		}
-
 		this.props.history.push('/');
+	}
+
+	/* Redirect user to home page when they click the logo */
+	onClickLogo() {
+		this.props.history.push({
+			pathname: '/'
+		});
 	}
 
 	render() {
