@@ -10,6 +10,11 @@ class AuthService {
 		this.getProfile = this.getProfile.bind(this);
 	}
 
+	/**
+	 * Login as user
+	 * @param {string} username
+	 * @param {string} password
+	 */
 	login(username, password) {
 		// Fetch token from server
 		return this.fetch(`${this.domain}/login`, {
@@ -26,6 +31,11 @@ class AuthService {
 		});
 	}
 
+	/**
+	 * Sign up
+	 * @param {string} username
+	 * @param {string} password
+	 */
 	signup(username, password) {
 		// Fetch token from server
 		return this.fetch(`${this.domain}/signup`, {
@@ -39,13 +49,17 @@ class AuthService {
 		});
 	}
 
+	/* Check if user has valid token */
 	loggedIn() {
-		// Check if there is a saved token and it's still valid
 		const token = this.getToken();
 
 		return !!token && !this.isTokenExpired(token);
 	}
 
+	/**
+	 * Check if token is expired
+	 * @param {string} token
+	 */
 	isTokenExpired(token) {
 		try {
 			const decoded = decode(token);
@@ -62,29 +76,37 @@ class AuthService {
 		}
 	}
 
+	/**
+	 * Save user token in local storage
+	 * @param {string} idToken
+	 */
 	setToken(idToken) {
-		// Save user token to local storage
 		localStorage.setItem('id_token', idToken);
 	}
 
+	/* Retrieves user token from local storage */
 	getToken() {
-		// Retrieves the user token from local storage
 		return localStorage.getItem('id_token');
 	}
 
+
+	/* Clear user token and profile data from local storage */
 	logout() {
-		// Clear user token and profile data from local storage
 		localStorage.removeItem('id_token');
 	}
 
+	/* Decode token */
 	getProfile() {
-		// Using jwt-decode npm package to decode the token
 		return decode(this.getToken());
 	}
 
 
+	/**
+	 * Fetch
+	 * @param {string} url
+	 * @param {object} options
+	 */
 	fetch(url, options) {
-		// performs api calls sending the required authentication headers
 		const headers = {
 			'Accept': 'application/json',
 			'Content-Type': 'application/json'
@@ -103,6 +125,10 @@ class AuthService {
 			.then(response => response.json());
 	}
 
+	/**
+	 * Check response status
+	 * @param {object} response
+	 */
 	_checkStatus(response) {
 		// Raise an error in case response status is not a success
 		if (response.status >= 200 && response.status < 300) {
