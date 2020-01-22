@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
 import '../styles/RegistrationModal.css';
+import AuthService from './AuthService';
 
 class RegistrationModal extends Component {
 	constructor(props) {
 		super(props);
 
+		this.state = {
+			username: null,
+			password: null
+		};
+
 		this.handleRegistrationClose   = this.handleRegistrationClose.bind(this);
 		this.handleRegistrationBGClick = this.handleRegistrationBGClick.bind(this);
 		this.triggerLoginModal         = this.triggerLoginModal.bind(this);
+		this.handleChange              = this.handleChange.bind(this);
+		this.handleRegistration        = this.handleRegistration.bind(this);
+
+		this.Auth = new AuthService();
 	}
 
 	handleRegistrationClose(e) {
@@ -40,10 +50,27 @@ class RegistrationModal extends Component {
 		modal.style.display = 'block';
 	}
 
-	handleRegistration(e) {
+	handleChange(e){
+		this.setState(
+			{
+				[e.target.name]: e.target.value
+			}
+		)
+	}
+
+	handleRegistration(e){
 		e.preventDefault();
 
-		// Foo
+		if(this.state.username && this.state.password) {
+			this.Auth.signup(this.state.username, this.state.password)
+				.then(res => {
+					alert('SUCCESS');
+					// this.props.history.replace('/Login');
+				})
+				.catch(err =>{
+					alert(err);
+				});
+		}
 	}
 
 	render() {
@@ -55,13 +82,29 @@ class RegistrationModal extends Component {
 					<div id='registration-content'>
 
 						<label>USERNAME</label><br/>
-						<input className='registration-input' placeholder='Username' type='text'></input><br/><br/>
+						<input
+							className='registration-input'
+							placeholder='Username'
+							type='text'
+							name='username'
+							onChange={this.handleChange}
+						/>
 
 						<label>PASSWORD</label><br/>
-						<input className='registration-input' placeholder='Password' type='password'></input><br/><br/>
+						<input
+							className='registration-input'
+							placeholder='Password'
+							type='password'
+							name='password'
+							onChange={this.handleChange}
+						/>
 
 						<label>RE-ENTER PASSWORD</label><br/>
-						<input className='registration-input' placeholder='Password' type='password'></input><br/><br/>
+						<input
+							className='registration-input'
+							placeholder='Password'
+							type='password'
+						/>
 
 						<button id='registration-button' onClick={this.handleRegistration}>
 							<b>Sign Up</b>
