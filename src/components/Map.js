@@ -8,8 +8,8 @@ class Map extends Component {
 		super(props);
 
 		this.center = {
-			lat : 52.52,
-			lng : 13.40
+			lat : 60.1699,
+			lng : 24.9384
 		}
 
 		this.options = {
