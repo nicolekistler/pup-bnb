@@ -4,6 +4,7 @@ import DateWidget from './DateWidget';
 import '../styles/ListingDetail.css';
 import listingData from '../data/ListingData';
 import star from '../assets/star.png';
+import AuthService from './AuthService';
 
 class ListingDetail extends Component {
 	constructor(props) {
@@ -20,12 +21,29 @@ class ListingDetail extends Component {
 		this.state = {
 			listing: ''
 		}
+
+		this.handleBooking = this.handleBooking.bind(this);
+		this.Auth          = new AuthService();
 	}
 
 	componentDidMount() {
 		this.setState({
 			listing: this.props.history.location.state.listing
 		});
+	}
+
+	handleBooking(e) {
+		e.preventDefault();
+
+		if(!this.Auth.loggedIn()) {
+			const modal = document.getElementById('login-modal');
+
+			modal.style.display = 'block';
+
+			return;
+		}
+
+		this.props.history.push('/MyBookings');
 	}
 
 	render() {
@@ -198,7 +216,7 @@ class ListingDetail extends Component {
 					<label>Dates</label>
 						<DateWidget/>
 					</div>
-					<button id='reserve-button'>
+					<button id='reserve-button' onClick={this.handleBooking}>
 						<b>Reserve</b>
 					</button>
 				<label id='demo-label'>Demo purposes only</label>
