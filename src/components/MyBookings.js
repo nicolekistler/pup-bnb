@@ -4,6 +4,12 @@ import '../styles/MyBookings.css';
 
 class MyBookings extends Component {
 
+	constructor(props) {
+		super(props);
+
+		document.title = `Upcoming • Pupbnb`;
+	}
+
 	render() {
 		return (
 			<div>
