@@ -22,6 +22,7 @@ class LoginModal extends Component {
 		this.Auth = new AuthService();
 	}
 
+	/* Handle user clicking outside of modal */
 	handleLoginBGClick(e) {
 		e.preventDefault();
 
@@ -32,6 +33,7 @@ class LoginModal extends Component {
 		}
 	}
 
+	/* Handle user closing login modal */
 	handleLoginClose(e) {
 		e.preventDefault();
 
@@ -40,6 +42,7 @@ class LoginModal extends Component {
 		modal.style.display = 'none';
 	}
 
+	/* Trigger registration modal from login modal */
 	triggerRegistration(e) {
 		e.preventDefault();
 
@@ -52,6 +55,7 @@ class LoginModal extends Component {
 		modal.style.display = 'block';
 	}
 
+	/* Handle change in login input */
 	handleChange(e){
 		this.setState(
 			{
@@ -60,6 +64,7 @@ class LoginModal extends Component {
 		)
 	}
 
+	/* Handle when user logs in */
 	handleLogin(e){
 		e.preventDefault();
 

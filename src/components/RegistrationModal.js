@@ -20,6 +20,7 @@ class RegistrationModal extends Component {
 		this.Auth = new AuthService();
 	}
 
+	/* Handle when user clicks registration close */
 	handleRegistrationClose(e) {
 		e.preventDefault();
 
@@ -28,6 +29,7 @@ class RegistrationModal extends Component {
 		modal.style.display = 'none';
 	}
 
+	/* Handle when user clicks out of modal */
 	handleRegistrationBGClick(e) {
 		e.preventDefault();
 
@@ -38,6 +40,7 @@ class RegistrationModal extends Component {
 		}
 	}
 
+	/* Open login modal from registration */
 	triggerLoginModal(e) {
 		e.preventDefault();
 
@@ -50,6 +53,7 @@ class RegistrationModal extends Component {
 		modal.style.display = 'block';
 	}
 
+	/* Handle input */
 	handleChange(e){
 		this.setState(
 			{
@@ -58,6 +62,7 @@ class RegistrationModal extends Component {
 		)
 	}
 
+	/* Handle when a user registers */
 	handleRegistration(e){
 		e.preventDefault();
 
