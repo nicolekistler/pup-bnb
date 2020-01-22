@@ -1,6 +1,5 @@
 .navbar {
   width: 100%;
-  /* overflow: auto; */
 }
 
 .navbar a {
@@ -8,9 +7,13 @@
   float: right;
   padding: 1vw;
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 2vh;
   margin-right: 2vw;
   margin-top: 2vh;
+}
+
+.navbar a:hover {
+  color: rgb(0, 132, 137, .1);
 }
 
 .navbar img {

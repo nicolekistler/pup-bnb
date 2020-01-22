@@ -18,6 +18,7 @@
   margin-top: 0!important;
   margin-bottom: 0!important;
   padding: 1vw;
+  height: 1vh;
 }
 
 #nav-search input {
@@ -40,7 +41,7 @@
 
 #nav-container img {
   padding-right: 2vw;
-  height: 6vh;
+  height: 6vh!important;
 }
 
 #nav-container img:hover {
@@ -131,7 +132,7 @@
   height: 90%;
 }
 
-/* Phone */
+/* Phone
 @media only screen and (max-width: 600px) {
   .listings-container {
     flex-direction: column;
@@ -149,4 +150,4 @@
 
 .results-container::-webkit-scrollbar {
   display: none;
-}
+} */
