@@ -9,6 +9,18 @@ class Listing extends Component {
 		this.handleListingClick = this.handleListingClick.bind(this);
 	}
 
+	/* Handle listing click */
+	handleListingClick(e) {
+		e.preventDefault();
+
+		this.props.history.push({
+			pathname: '/ListingDetail',
+			state: {
+				listing : this.props.listing
+			}
+		});
+	}
+
 	render() {
 		return (
 			<div className='listing-container' onClick={this.handleListingClick}>
@@ -23,22 +35,6 @@ class Listing extends Component {
 					<div id='price_nightly'>{`${this.props.listing.price_per_night}/night`}</div>
 			</div>
 		);
-	}
-
-	/**
-	 * Handle when user clicks on listing
-	 * @param  {Object} e Event
-	 * @return {Void}
-	 */
-	handleListingClick(e) {
-		e.preventDefault();
-
-		this.props.history.push({
-			pathname: '/ListingDetail',
-			state: {
-				listing : this.props.listing
-			}
-		});
 	}
 }
 

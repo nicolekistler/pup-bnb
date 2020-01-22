@@ -6,7 +6,7 @@ class DateWidget extends Component {
 	constructor(props) {
 		super(props);
 
-		let tomorrow = new Date();
+		const tomorrow = new Date();
 		tomorrow.setDate(tomorrow.getDate() + 1);
 
 		this.state = {
@@ -45,6 +45,7 @@ class DateWidget extends Component {
 					selectsStart
 					selected={this.state.startDate}
 					onChange={this.handleStartDateChange}
+					minDate={new Date()}
 				/>
 				<DatePicker
 					selectsEnd

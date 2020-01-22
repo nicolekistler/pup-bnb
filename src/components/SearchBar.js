@@ -24,6 +24,7 @@ class SearchBar extends Component {
 		this.autocomplete.addListener('place_changed', this.handlePlaceChanged);
 	}
 
+	/* Handle place change */
 	handlePlaceChanged() {
 		const place = this.autocomplete.getPlace();
 
@@ -43,6 +44,7 @@ class SearchBar extends Component {
 		}
 	}
 
+	/* Handle enter key */
 	handleKeyDown(e) {
 		if (e.key === 'Enter') {
 			e.preventDefault();

@@ -10,12 +10,7 @@ class SearchForm extends Component {
 	constructor(props) {
 		super(props);
 
-		let tomorrow = new Date();
-		tomorrow.setDate(tomorrow.getDate() + 1);
-
 		this.state = {
-			startDate : new Date(),
-			endDate   : tomorrow,
 			place_id  : '',
 			place_lat : '',
 			place_lng : ''
