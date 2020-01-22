@@ -21,13 +21,12 @@ class SearchForm extends Component {
 			place_lng : ''
 		}
 
-		this.handleKeyDown         = this.handleKeyDown.bind(this);
-		this.handlePlace           = this.handlePlace.bind(this);
-		this.handleSubmit          = this.handleSubmit.bind(this);
-		this.handleStartDateChange = this.handleStartDateChange.bind(this);
-		this.handleEndDateChange   = this.handleEndDateChange.bind(this);
+		this.handleKeyDown = this.handleKeyDown.bind(this);
+		this.handlePlace   = this.handlePlace.bind(this);
+		this.handleSubmit  = this.handleSubmit.bind(this);
 	}
 
+	/* Handle user changing search place */
 	handlePlace(placeId, placeLat, placeLng) {
 		this.setState({
 			place_id  : placeId,
@@ -36,24 +35,7 @@ class SearchForm extends Component {
 		});
 	}
 
-	handleStartDateChange(date) {
-		this.setState({
-			startDate: date
-		});
-
-		if(date > this.state.endDate) {
-			this.setState({
-				endDate: date
-			});
-		}
-	};
-
-	handleEndDateChange(date) {
-		this.setState({
-			endDate: date
-		});
-	};
-
+	/* Handle user submit */
 	handleSubmit(e) {
 		e.preventDefault();
 
@@ -67,6 +49,7 @@ class SearchForm extends Component {
 		});
 	}
 
+	/* Handle enter key */
 	handleKeyDown(e) {
 		if (e.key === 'Enter') {
 			e.preventDefault();
