@@ -15,8 +15,6 @@ export default function withAuth(AuthComponent) {
 
 		componentDidMount() {
 			if (!Auth.loggedIn()) {
-				console.log('not logged in');
-
 				this.props.history.push('/login');
 			}
 			else {
