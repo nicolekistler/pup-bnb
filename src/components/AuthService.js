@@ -1,21 +1,17 @@
 import decode from 'jwt-decode';
 
 class AuthService {
-	// Initializing important variables
 	constructor(domain) {
-		this.domain = domain || 'http://localhost:8080'; // API server domain
+		this.domain = domain || 'http://localhost:8080';
 
-		this.fetch = this.fetch.bind(this); // React binding stuff
-
-		this.login = this.login.bind(this);
-
-		this.signup = this.signup.bind(this);
-
+		this.fetch      = this.fetch.bind(this);
+		this.login      = this.login.bind(this);
+		this.signup     = this.signup.bind(this);
 		this.getProfile = this.getProfile.bind(this);
 	}
 
 	login(username, password) {
-		// Get a token from api server using the fetch api
+		// Fetch token from server
 		return this.fetch(`${this.domain}/login`, {
 			method: 'POST',
 			body: JSON.stringify({
@@ -23,13 +19,15 @@ class AuthService {
 				password
 			})
 		}).then(res => {
-			this.setToken(res.token) // Setting the token in localStorage
+			// Setting the token in local storage
+			this.setToken(res.token)
+
 			return Promise.resolve(res);
 		});
 	}
 
 	signup(username, password) {
-		// Get a token from api server using the fetch api
+		// Fetch token from server
 		return this.fetch(`${this.domain}/signup`, {
 			method: 'POST',
 			body: JSON.stringify({
@@ -42,15 +40,18 @@ class AuthService {
 	}
 
 	loggedIn() {
-		// Checks if there is a saved token and it's still valid
-		const token = this.getToken(); // GEtting token from localstorage
-		return !!token && !this.isTokenExpired(token); // handwaiving here
+		// Check if there is a saved token and it's still valid
+		const token = this.getToken();
+
+		return !!token && !this.isTokenExpired(token);
 	}
 
 	isTokenExpired(token) {
 		try {
 			const decoded = decode(token);
-			if (decoded.exp < Date.now() / 1000) { // Checking if token is expired
+
+			// Checking if token is expired
+			if (decoded.exp < Date.now() / 1000) {
 				return true;
 			}
 			else
@@ -62,17 +63,17 @@ class AuthService {
 	}
 
 	setToken(idToken) {
-		// Saves user token to localStorage
+		// Save user token to local storage
 		localStorage.setItem('id_token', idToken);
 	}
 
 	getToken() {
-		// Retrieves the user token from localStorage
+		// Retrieves the user token from local storage
 		return localStorage.getItem('id_token');
 	}
 
 	logout() {
-		// Clear user token and profile data from localStorage
+		// Clear user token and profile data from local storage
 		localStorage.removeItem('id_token');
 	}
 
@@ -89,8 +90,7 @@ class AuthService {
 			'Content-Type': 'application/json'
 		};
 
-		// Setting Authorization header
-		// Authorization: Bearer xxxxxxx.xxxxxxxx.xxxxxx
+		// Set Authorization header
 		if (this.loggedIn()) {
 			headers['Authorization'] = 'Bearer ' + this.getToken();
 		}
@@ -104,8 +104,8 @@ class AuthService {
 	}
 
 	_checkStatus(response) {
-		// raises an error in case response status is not a success
-		if (response.status >= 200 && response.status < 300) { // Success status lies between 200 to 300
+		// Raise an error in case response status is not a success
+		if (response.status >= 200 && response.status < 300) {
 			return response;
 		} else {
 			var error = new Error(response.statusText);

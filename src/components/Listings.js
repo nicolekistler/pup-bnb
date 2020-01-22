@@ -126,6 +126,7 @@ class Listings extends Component {
 		this.filterListings(placeId, placeLat, placeLng);
 	}
 
+	/* Handle logo click */
 	onClickLogo() {
 		this.props.history.push({
 			pathname: '/'

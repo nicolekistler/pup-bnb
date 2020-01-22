@@ -16,9 +16,9 @@ class DateWidget extends Component {
 
 		this.handleStartDateChange = this.handleStartDateChange.bind(this);
 		this.handleEndDateChange   = this.handleEndDateChange.bind(this);
-		console.log('test');
 	}
 
+	/* Handle widget start date changes */
 	handleStartDateChange(date) {
 		this.setState({
 			startDate: date
@@ -31,6 +31,7 @@ class DateWidget extends Component {
 		}
 	};
 
+	/* Handle widget end date changes */
 	handleEndDateChange(date) {
 		this.setState({
 			endDate: date

@@ -19,10 +19,10 @@ class Map extends Component {
 	}
 
 	componentDidMount() {
-		/* Define map */
+		// Define map
 		this.map = new google.maps.Map(this.init, this.options);
 
-		/* Initialize options */
+		// Initialize options
 		this.map.setOptions({
 			streetViewControl: false,
 			mapTypeControl: false,
@@ -35,7 +35,6 @@ class Map extends Component {
 			}]
 		});
 
-		/* If latitude is defined, set the center of the map and render markers */
 		if(this.props.place_lat) {
 			const lat = parseFloat(this.props.place_lat);
 			const lng = parseFloat(this.props.place_lng);
@@ -50,9 +49,7 @@ class Map extends Component {
 
 	}
 
-	/**
-	 * Render searched markers on map
-	 */
+	/* Render searched markers on map */
 	renderMarkers() {
 		listingData.forEach(listing => {
 			new google.maps.Marker({
@@ -64,8 +61,8 @@ class Map extends Component {
 		});
 	}
 
+	/* If either the lat or long changes, reposition the map */
 	componentDidUpdate() {
-		/* If either the lat or long changes, reposition the map */
 		if (this.center.lat !== this.props.place_lat || this.center.lng !== this.props.place_lng) {
 			this.map.setCenter({
 				lat: this.props.place_lat,
