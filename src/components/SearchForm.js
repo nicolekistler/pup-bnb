@@ -4,6 +4,7 @@ import SearchBar from './SearchBar';
 import { withRouter } from 'react-router';
 import 'react-datepicker/dist/react-datepicker.css';
 import DateWidget from './DateWidget';
+import '../styles/SearchForm.css';
 
 class SearchForm extends Component {
 	constructor(props) {

@@ -32,6 +32,7 @@ class ListingDetail extends Component {
 		});
 	}
 
+	/* Handle user booking */
 	handleBooking(e) {
 		e.preventDefault();
 

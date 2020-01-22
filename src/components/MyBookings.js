@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavHeader from './NavHeader';
+import withAuth from './withAuth';
 import '../styles/MyBookings.css';
 
 class MyBookings extends Component {
@@ -11,6 +12,8 @@ class MyBookings extends Component {
 	}
 
 	render() {
+		console.log(window.location.pathname);
+
 		return (
 			<div>
 				<NavHeader/>
@@ -20,4 +23,4 @@ class MyBookings extends Component {
 	}
 }
 
-export default MyBookings;
+export default withAuth(MyBookings);
