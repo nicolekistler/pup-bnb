@@ -12,6 +12,8 @@ class LoginModal extends Component {
 			password: null
 		};
 
+		this.Auth = new AuthService();
+
 		this.handleLoginClose    = this.handleLoginClose.bind(this);
 		this.handleLoginBGClick  = this.handleLoginBGClick.bind(this);
 		this.triggerRegistration = this.triggerRegistration.bind(this);
@@ -19,17 +21,25 @@ class LoginModal extends Component {
 		this.handleChange = this.handleChange.bind(this);
 		this.handleLogin  = this.handleLogin.bind(this);
 
-		this.Auth = new AuthService();
+		this.displayInvalid = this.displayInvalid.bind(this);
+
+		this.invalidError      = null;
+		this.loginModal        = null;
+		this.registrationModal = null;
+	}
+
+	componentDidMount() {
+		this.invalidError      = document.getElementById('invalid-login');
+		this.loginModal        = document.getElementById('login-modal');
+		this.registrationModal = document.getElementById('registration-modal');
 	}
 
 	/* Handle user clicking outside of modal */
 	handleLoginBGClick(e) {
 		e.preventDefault();
 
-		const modal = document.getElementById('login-modal');
-
-		if (e.target === modal) {
-			modal.style.display = 'none';
+		if (e.target === this.loginModal) {
+			this.loginModal.style.display = 'none';
 		}
 	}
 
@@ -37,22 +47,18 @@ class LoginModal extends Component {
 	handleLoginClose(e) {
 		e.preventDefault();
 
-		const modal = document.getElementById('login-modal');
+		this.loginModal.style.display = 'none';
 
-		modal.style.display = 'none';
+		this.invalidError.style.display = 'none';
 	}
 
 	/* Trigger registration modal from login modal */
 	triggerRegistration(e) {
 		e.preventDefault();
 
-		let modal = document.getElementById('login-modal');
+		this.loginModal.style.display = 'none';
 
-		modal.style.display = 'none';
-
-		modal = document.getElementById('registration-modal');
-
-		modal.style.display = 'block';
+		this.registrationModal.style.display = 'block';
 	}
 
 	/* Handle change in login input */
@@ -62,6 +68,8 @@ class LoginModal extends Component {
 				[e.target.name]: e.target.value
 			}
 		)
+
+		this.invalidError.style.display = 'none';
 	}
 
 	/* Handle when user logs in */
@@ -75,10 +83,15 @@ class LoginModal extends Component {
 
 					this.props.history.push('/MyBookings');
 				})
-				.catch(err =>{
-					alert(err);
+				.catch(err => {
+					this.displayInvalid();
 				});
 		}
+	}
+
+	/* Handle incorrect credentials */
+	displayInvalid() {
+		this.invalidError.style.display = 'block';
 	}
 
 	render() {
@@ -111,6 +124,9 @@ class LoginModal extends Component {
 								type="submit"
 								onClick={this.handleLogin}
 							/>
+							<div id='invalid-login'>
+								The provided login credentials are incorrect, please try again 🐶
+							</div>
 							<div id='sign-up'>
 								Don't have an account? <a onClick={this.triggerRegistration}>Sign up!</a>
 							</div>

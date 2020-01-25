@@ -82,6 +82,16 @@
   margin-bottom: 3vh;
 }
 
+#invalid-login {
+  width: 20vw;
+  height: 5vh;
+  font-size: 2vh;
+  height: 2vh;
+  display: none;
+  padding-bottom: 8vh;
+  color: #FF5A5F;
+}
+
 .login-input:focus {
   border: 1px solid rgb(0, 132, 137);
 }
