@@ -1,4 +1,4 @@
-[
+module.exports = [
    {
       "description":"Gorgeous pup hotel in the city center with FREE TREATS and the most comfortable couches! You will have your own door code and may arrive at ANY time and as late as you wish, EASY self check-in guaranteed.",
       "name":"Amazing Apartment at the Heart of the City",
