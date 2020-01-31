@@ -1,56 +1,34 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
+#my-bookings-container {
+	display: flex;
+	flex-direction: row;
+  width: 100vw;
+  min-height: 100vh;
+}
 
-/* .menu-container {
-  color: #fff;
-  background-color: #5995DA;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-} */
+#upcoming-container {
+	display: flex;
+	flex-direction: column;
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
 
-/* .menu {
-  border: 1px solid #fff;
-  width: 900px;
-  display: flex;
-  justify-content: space-between;
-} */
+#upcoming-container h2 {
+  margin-bottom: 3vh;
+}
 
-/* .links {
-  display: flex;
-  justify-content: flex-end;
-} */
-
-/* .login {
-  margin-left: 20px;
-} */
-
-/* .header-container {
-  color: #5995DA;
-  background-color: #D6E9FE;
-  display: flex;
-  justify-content: center; */
-/* } */
-
-/* .header {
-  width: 900px;
-  height: 300px;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-} */
-
-/* .logo {
-	width: 516px;
-	height: 100px;
-	background-color: pink;
-} */
-
-/* .social {
-	height: 20px;
-	width: 80px;
-	background-color: palevioletred;
-} */
+.upcoming-trip-container {
+	display: flex;
+	flex-direction: column;
+  margin-top: 5vh;
+	margin-bottom: 4vh;
+	padding:3vh;
+  border-radius: 4px;
+	fill: rgb(255, 255, 255) !important;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px 0px !important;
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-radius:12px;
+	border-color: rgb(255, 255, 255) !important;
+  width: 50vw;
+  height: 50vh;
+}
