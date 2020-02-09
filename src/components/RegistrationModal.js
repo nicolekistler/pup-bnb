@@ -15,22 +15,22 @@ class RegistrationModal extends Component {
 
 		this.Auth = new AuthService();
 
-		this.handleRegistrationClose = this.handleRegistrationClose.bind(this);
+		this.handleRegistrationClose   = this.handleRegistrationClose.bind(this);
 		this.handleRegistrationBGClick = this.handleRegistrationBGClick.bind(this);
-		this.triggerLoginModal = this.triggerLoginModal.bind(this);
-		this.handleChange = this.handleChange.bind(this);
-		this.handleRegistration = this.handleRegistration.bind(this);
-		this.handleKeyDown = this.handleKeyDown.bind(this);
+		this.triggerLoginModal         = this.triggerLoginModal.bind(this);
+		this.handleChange              = this.handleChange.bind(this);
+		this.handleRegistration        = this.handleRegistration.bind(this);
+		this.handleKeyDown             = this.handleKeyDown.bind(this);
 
-		this.loginModal = null;
+		this.loginModal        = null;
 		this.registrationModal = null;
-		this.invalidError = null;
+		this.invalidError      = null;
 	}
 
 	componentDidMount() {
-		this.loginModal = document.getElementById('login-modal');
+		this.loginModal        = document.getElementById('login-modal');
 		this.registrationModal = document.getElementById('registration-modal');
-		this.invalidError = document.getElementById('invalid-registration');
+		this.invalidError      = document.getElementById('invalid-registration');
 	}
 
 	/* Handle when user clicks registration close */
@@ -58,7 +58,7 @@ class RegistrationModal extends Component {
 		e.preventDefault();
 
 		this.registrationModal.style.display = 'none';
-		this.loginModal.style.display = 'block';
+		this.loginModal.style.display        = 'block';
 	}
 
 	/* Handle input */
@@ -87,7 +87,7 @@ class RegistrationModal extends Component {
 				this.triggerLoginModal(e);
 			})
 			.catch(err => {
-				this.usernameTaken();
+				this.displayError('Username already taken');
 			});
 	}
 
@@ -98,65 +98,6 @@ class RegistrationModal extends Component {
 
 			this.handleRegistration(e);
 		}
-	}
-
-	validateInput() {
-		const username = this.state.username;
-		const password = this.state.password;
-		const reentered = this.state.reentered;
-
-		if(!username || !password || !reentered) {
-			this.displayError('Please complete all registration fields');
-
-			return false;
-		}
-
-		if(username.length < 6 || username.length > 15) {
-			this.displayError('Username must be 6-15 characters');
-			
-			return false;
-		}
-
-		if(username.match(/\W/)) {
-			this.displayError('Username must consist of alphanumeric characters');
-			
-			return false;
-		}
-
-		if(password.length < 6 || password.length > 15) {
-			this.displayError('Password must be 6-15 characters');
-			
-			return false;
-		}
-
-		if(username.match(/\W/)) {
-			this.displayError('Password can only consist of alphanumeric characters');
-			
-			return false;
-		}
-
-		if(password !== reentered) {
-			this.displayError('Passwords do not match');
-
-			return false;
-
-		}
-
-		return true;
-	}
-
-	displayError(errorMessage = 'An error has occurred') {
-		this.setState({
-			errorMessage: errorMessage
-		});
-
-		this.invalidError.classList.add('open');
-
-		return;
-	}
-
-	usernameTaken() {
-		this.displayError('Username already taken');
 	}
 
 	render() {
@@ -214,6 +155,63 @@ class RegistrationModal extends Component {
 				</div>
 			</div>
 		);
+	}
+
+	/* Validate user registration input */
+	validateInput() {
+		const username  = this.state.username;
+		const password  = this.state.password;
+		const reentered = this.state.reentered;
+
+		if(!username || !password || !reentered) {
+			this.displayError('Please complete all registration fields');
+
+			return false;
+		}
+
+		if(username.length < 6 || username.length > 15) {
+			this.displayError('Username must be 6-15 characters');
+			
+			return false;
+		}
+
+		if(username.match(/\W/)) {
+			this.displayError('Username must consist of alphanumeric characters');
+			
+			return false;
+		}
+
+		if(password.length < 6 || password.length > 15) {
+			this.displayError('Password must be 6-15 characters');
+			
+			return false;
+		}
+
+		if(username.match(/\W/)) {
+			this.displayError('Password can only consist of alphanumeric characters');
+			
+			return false;
+		}
+
+		if(password !== reentered) {
+			this.displayError('Passwords do not match');
+
+			return false;
+
+		}
+
+		return true;
+	}
+
+	/* Display error to user when error occurs */
+	displayError(errorMessage = 'An error has occurred') {
+		this.setState({
+			errorMessage: errorMessage
+		});
+
+		this.invalidError.classList.add('open');
+
+		return;
 	}
 }
 

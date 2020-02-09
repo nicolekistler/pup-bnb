@@ -21,13 +21,13 @@
   height: 1vh;
   opacity: 0;
   color: #fc6f73;
-  transition: opacity .5s linear;
+  transition: opacity .1s linear;
 }
 
 #invalid-registration.open {
   position: static;
   opacity: 1;
-  transition: opacity .5s linear;
+  transition: opacity .1s linear;
 }
 
 #registration-modal-content {
