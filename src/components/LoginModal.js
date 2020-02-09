@@ -21,8 +21,6 @@ class LoginModal extends Component {
 		this.handleChange = this.handleChange.bind(this);
 		this.handleLogin  = this.handleLogin.bind(this);
 
-		this.displayInvalid = this.displayInvalid.bind(this);
-
 		this.invalidError      = null;
 		this.loginModal        = null;
 		this.registrationModal = null;
@@ -39,6 +37,7 @@ class LoginModal extends Component {
 		e.preventDefault();
 
 		if (e.target === this.loginModal) {
+			this.invalidError.classList.remove('open');
 			this.loginModal.style.display = 'none';
 		}
 	}
@@ -47,9 +46,9 @@ class LoginModal extends Component {
 	handleLoginClose(e) {
 		e.preventDefault();
 
-		this.loginModal.style.display = 'none';
+		this.invalidError.classList.remove('open');
 
-		this.invalidError.style.display = 'none';
+		this.loginModal.style.display = 'none';
 	}
 
 	/* Trigger registration modal from login modal */
@@ -69,29 +68,22 @@ class LoginModal extends Component {
 			}
 		)
 
-		this.invalidError.style.display = 'none';
+		this.invalidError.classList.remove('open');
 	}
 
 	/* Handle when user logs in */
 	handleLogin(e){
 		e.preventDefault();
 
-		if(this.state.username && this.state.password) {
-			this.Auth.login(this.state.username, this.state.password)
-				.then(res => {
-					this.handleLoginClose(e);
+		this.Auth.login(this.state.username, this.state.password)
+			.then(res => {
+				this.handleLoginClose(e);
 
-					this.props.history.push('/MyBookings');
-				})
-				.catch(err => {
-					this.displayInvalid();
-				});
-		}
-	}
-
-	/* Handle incorrect credentials */
-	displayInvalid() {
-		this.invalidError.style.display = 'block';
+				this.props.history.push('/MyBookings');
+			})
+			.catch(err => {
+				this.invalidError.classList.add('open');
+			});
 	}
 
 	render() {
@@ -101,6 +93,10 @@ class LoginModal extends Component {
 					<div id='login-modal-content'>
 						<span className='close' onClick={this.handleLoginClose}>&times;</span>
 						<div id='login-content'>
+							<h1>Login</h1>
+							<div id='sign-up'>
+								Don't have an account? <a onClick={this.triggerRegistration}>Sign up</a>
+							</div>
 							<label>USERNAME</label>
 							<input
 								className='login-input'
@@ -125,10 +121,7 @@ class LoginModal extends Component {
 								onClick={this.handleLogin}
 							/>
 							<div id='invalid-login'>
-								The provided login credentials are incorrect, please try again 🐶
-							</div>
-							<div id='sign-up'>
-								Don't have an account? <a onClick={this.triggerRegistration}>Sign up!</a>
+								Incorrect credentials 🐶
 							</div>
 						</div>
 					</div>
