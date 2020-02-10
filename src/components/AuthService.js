@@ -8,6 +8,7 @@ class AuthService {
 		this.login      = this.login.bind(this);
 		this.signup     = this.signup.bind(this);
 		this.getProfile = this.getProfile.bind(this);
+		this.getUserId  = this.getUserId.bind(this);
 	}
 
 	/**
@@ -25,7 +26,8 @@ class AuthService {
 			})
 		}).then(res => {
 			// Setting the token in local storage
-			this.setToken(res.token)
+			this.setToken(res.token);
+			this.setUserId(res.userId);
 
 			return Promise.resolve(res);
 		});
@@ -89,10 +91,18 @@ class AuthService {
 		return localStorage.getItem('id_token');
 	}
 
+	setUserId(userId) {
+		localStorage.setItem('user_id', userId);
+	}
+
+	getUserId() {
+		return localStorage.getItem('user_id');
+	}
 
 	/* Clear user token and profile data from local storage */
 	logout() {
 		localStorage.removeItem('id_token');
+		localStorage.removeItem('user_id');
 	}
 
 	/* Decode token */
