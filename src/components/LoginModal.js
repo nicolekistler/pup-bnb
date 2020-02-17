@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/LoginModal.css';
-import AuthService from './AuthService';
+import AuthService from '../services/AuthService';
 import { withRouter } from 'react-router';
 
 class LoginModal extends Component {

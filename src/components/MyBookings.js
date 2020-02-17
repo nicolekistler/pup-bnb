@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NavHeader from './NavHeader';
 import withAuth from './withAuth';
-import AuthService from './AuthService';
+import AuthService from '../services/AuthService';
 import '../styles/MyBookings.css';
 import tripsIllustration from '../assets/trips-illustration.jpg'
 

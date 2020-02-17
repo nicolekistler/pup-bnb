@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/RegistrationModal.css';
-import AuthService from './AuthService';
+import AuthService from '../services/AuthService';
 
 class RegistrationModal extends Component {
 	constructor(props) {

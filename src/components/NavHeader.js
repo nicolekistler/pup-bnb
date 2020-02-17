@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import '../styles/NavHeader.css';
 import logo from '../assets/paw-print.png';
 import { withRouter } from 'react-router';
-import AuthService from './AuthService';
+import AuthService from '../services/AuthService';
 
 class NavHeader extends Component {
 	constructor(props) {
