@@ -1,15 +1,16 @@
 #my-bookings-container {
 	display: flex;
 	flex-direction: row;
-  width: 100vw;
-  min-height: 100vh;
+	width: 100vw;
+	min-height: 100vh;
+	overflow-y: hidden;
 }
 
 #upcoming-container {
 	display: flex;
 	flex-direction: column;
-  margin-left: 5vw;
-  margin-top: 5vh;
+	margin-left: 5vw;
+	margin-top: 5vh;
 }
 
 #upcoming-container h2 {
@@ -19,16 +20,16 @@
 .upcoming-trip-container {
 	display: flex;
 	flex-direction: column;
-  margin-top: 5vh;
+ 	margin-top: 5vh;
 	margin-bottom: 4vh;
 	padding:3vh;
-  border-radius: 4px;
-	fill: rgb(255, 255, 255) !important;
-	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px 0px !important;
-	border-width: 1px !important;
-	border-style: solid !important;
+  	border-radius: 4px;
+	fill: rgb(255, 255, 255);
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px 0px;
+	border-width: 1px;
+	border-style: solid;
 	border-radius:12px;
-	border-color: rgb(255, 255, 255) !important;
-  width: 50vw;
-  height: 50vh;
+	border-color: rgb(255, 255, 255);
+  	width: 50vw;
+  	height: 50vh;
 }

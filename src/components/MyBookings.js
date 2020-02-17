@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import NavHeader from './NavHeader';
 import withAuth from './withAuth';
+import AuthService from './AuthService';
 import '../styles/MyBookings.css';
-import listingData from '../data/ListingData';
 import tripsIllustration from '../assets/trips-illustration.jpg'
 
 class MyBookings extends Component {
@@ -11,18 +11,20 @@ class MyBookings extends Component {
 		super(props);
 
 		document.title = `Upcoming • Pupbnb`;
+
+		this.Auth = new AuthService();
+
+		this.userId = this.Auth.getUserId();
 	}
-
+	
 	render() {
-		console.log(listingData[0]);
-
 		return (
 			<div>
 				<NavHeader/>
 				<div id='my-bookings-container'>
 					<div id='upcoming-container'>
 						<h2>Hello, Andrea!</h2>
-						Check out your upcoming trips 🐶
+						Check out your upcoming trips
 						<div className='upcoming-trip-container'>
 						Testing 123
 						</div>
@@ -30,7 +32,7 @@ class MyBookings extends Component {
 						Testing 123
 						</div>
 					</div>
-					<img src={tripsIllustration}/>
+					<img alt={''} src={tripsIllustration}/>
 				</div>
 			</div>
 		);
