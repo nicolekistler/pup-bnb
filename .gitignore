@@ -2,6 +2,7 @@
 npm-debug.log*
 yarn.lock
 .env
+/build
 
 .DS_STORE
 public/.DS_Store
