@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import LoginModal from './LoginModal';
 import RegistrationModal from './RegistrationModal';
 import { Link } from 'react-router-dom';
@@ -61,19 +61,19 @@ class NavHeader extends Component {
 
 		if(this.Auth.loggedIn()) {
 			links =
-			<React.Fragment>
+			<Fragment>
 				<a href='/' onClick={this.handleLogout}>Sign Out</a>
 				<Link to='/mybookings'>My Bookings</Link>
 				<a href='/'>Home</a>
-			</React.Fragment>;
+			</Fragment>;
 		}
 		else {
 			links =
-			<React.Fragment>
+			<Fragment>
 				<a href='/' onClick={this.showRegistrationModal}>Sign Up</a>
 				<a href='/' onClick={this.showLoginModal}>Login</a>
 				<a href='/'>Home</a>
-			</React.Fragment>;
+			</Fragment>;
 		}
 
 		return (
