@@ -74,7 +74,7 @@ class SearchForm extends Component {
 				<div id='form-container'>
 					<form onSubmit={this.handleSubmit} onKeyDown={this.handleKeyDown}>
 						<label>WHERE</label><br/>
-						<SearchBar onSelectPlace={this.handlePlace}/>
+						<SearchBar placeSelected={this.handlePlace}/>
 
 						<label>WHEN</label><br/>
 						<DateWidget/>

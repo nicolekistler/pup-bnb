@@ -40,7 +40,7 @@ class SearchBar extends Component {
 				lng   : place_lng
 			});
 
-			this.props.onSelectPlace(place_id, place_lat, place_lng);
+			this.props.placeSelected(place_id, place_lat, place_lng);
 		}
 	}
 

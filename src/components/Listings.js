@@ -147,7 +147,7 @@ class Listings extends Component {
 				<div id='nav-container'>
 					<img src={logo} alt={''}  onClick={this.onClickLogo}/>
 					<div id='nav-search'>
-						<SearchBar onSelectPlace={this.handlePlaceChange}/>
+						<SearchBar placeSelected={this.handlePlaceChange}/>
 					</div>
 					<NavHeader show_logo={false}/>
 				</div>
