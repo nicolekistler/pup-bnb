@@ -51,6 +51,27 @@ class AuthService {
 		});
 	}
 
+	/**
+	 * Book a listing as a user
+	 * @param {string} userId 
+	 * @param {number} listingId 
+	 * @param {string} startDate 
+	 * @param {string} endDate 
+	 */
+	book(userId, listingId, startDate, endDate) {
+		return this.fetch(`${this.domain}/book`, {
+			method: 'POST',
+			body: JSON.stringify({
+				userId,
+				listingId,
+				startDate,
+				endDate
+			})
+		}).then(res => {
+			return Promise.resolve(res);
+		});
+	}
+
 	/* Check if user has valid token */
 	loggedIn() {
 		const token = this.getToken();
