@@ -29,12 +29,22 @@ class DateWidget extends Component {
 				endDate: date
 			});
 		}
+
+		this.props.bookingDates({
+			startDate: this.state.startDate,
+			endDate: this.state.endDate
+		});
 	};
 
 	/* Handle widget end date changes */
 	handleEndDateChange(date) {
 		this.setState({
 			endDate: date
+		});
+
+		this.props.bookingDates({
+			startDate: this.state.startDate,
+			endDate: this.state.endDate
 		});
 	};
 

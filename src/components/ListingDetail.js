@@ -4,7 +4,8 @@ import DateWidget from './DateWidget';
 import '../styles/ListingDetail.css';
 import listingData from '../data/ListingData';
 import star from '../assets/star.png';
-import AuthService from './AuthService';
+import AuthService from '../services/AuthService';
+import BookingService from '../services/BookingService';
 
 class ListingDetail extends Component {
 	constructor(props) {
@@ -17,13 +18,20 @@ class ListingDetail extends Component {
 				listing: ''
 			}
 		}
+		
+		this.Auth    = new AuthService();
+		this.Booking = new BookingService();
+
+		this.userId = this.Auth.getUserId();
 
 		this.state = {
-			listing: ''
+			listing: '',
+			startDate: '11-21-2020',
+			endDate: '11-30-2020'
 		}
 
-		this.handleBooking = this.handleBooking.bind(this);
-		this.Auth          = new AuthService();
+		this.handleBooking    = this.handleBooking.bind(this);
+		this.handleDateChange = this.handleDateChange.bind(this);
 	}
 
 	componentDidMount() {
@@ -32,26 +40,15 @@ class ListingDetail extends Component {
 		});
 	}
 
-	/* Handle user booking */
-	handleBooking(e) {
-		e.preventDefault();
-
-		if(!this.Auth.loggedIn()) {
-			const modal = document.getElementById('login-modal');
-
-			modal.style.display = 'block';
-
-			return;
-		}
-
-		this.props.history.push('/MyBookings');
-	}
-
 	render() {
 		let listing = this.state.listing;
 
 		if(!listing) {
 			listing = listingData[0];
+
+			this.setState({
+				listing: listing
+			});
 		}
 
 		return (
@@ -67,6 +64,61 @@ class ListingDetail extends Component {
 					{this.renderBookingWidget(listing)}
 				</div>
 
+			</div>
+		);
+	}
+
+	handleDateChange(bookingDates = {}) {
+		console.log(bookingDates);
+	}
+
+	/* Handle user booking */
+	handleBooking(e) {
+		e.preventDefault();
+
+		if(!this.Auth.loggedIn()) {
+			const modal = document.getElementById('login-modal');
+
+			modal.style.display = 'block';
+
+			return;
+		}
+
+		console.log(this.userId, this.state.listing.id, this.state.startDate, this.state.endDate);
+
+		this.Booking.book(
+			this.userId,
+			this.state.listing.id,
+			this.state.startDate,
+			this.state.endDate
+		)
+			.then(res => {
+				this.props.history.push('/MyBookings');
+			})
+			.catch(err => {
+				console.log('error occurred');
+			});
+	}
+
+	/**
+	 * Render booking widget
+	 * @param {Object} listing
+	 */
+	renderBookingWidget(listing) {
+		return (
+			<div id='book-listing-container'>
+				<div id='reserve-info'>
+					<span id='listing-price'>{listing.price_per_night}</span><span className='info-small'> per night</span><br/>
+					<span className='info-small'><img src={star} alt={''}/> 4.5 (2 Reviews)</span><br/>
+				</div>
+				<div id='reserve-date'>
+					<label>Dates</label> 
+						<DateWidget bookingDates={this.handleDateChange}/>
+					</div>
+					<button id='reserve-button' onClick={this.handleBooking}>
+						<b>Reserve</b>
+					</button>
+				<label id='demo-label'>Demo purposes only</label>
 			</div>
 		);
 	}
@@ -143,7 +195,7 @@ class ListingDetail extends Component {
 
 		amenities.forEach(amenity => {
 			amenitySection.push(
-				<div className='amenity'>
+				<div className='amenity' key={Math.floor(100000 + Math.random() * 900000)}>
 					<img src={amenity.img} alt={''}/> {amenity.name}
 				</div>
 			);
@@ -169,7 +221,7 @@ class ListingDetail extends Component {
 
 		listing.reviews.forEach(review => {
 			reviews.push(
-				<div id='review-container'>
+				<div id='review-container' key={Math.floor(100000 + Math.random() * 900000)}>
 					<div id='review-top'>
 						<div>
 							<img src='https://i.imgur.com/MOGJayg.png' alt={''}/>
@@ -198,29 +250,6 @@ class ListingDetail extends Component {
 					After that, cancel up to 24 hours before check-in and get a full refund,
 					minus the service fee.
 				</div>
-			</div>
-		);
-	}
-
-	/**
-	 * Render booking widget
-	 * @param {Object} listing
-	 */
-	renderBookingWidget(listing) {
-		return (
-			<div id='book-listing-container'>
-				<div id='reserve-info'>
-					<span id='listing-price'>{listing.price_per_night}</span><span className='info-small'> per night</span><br/>
-					<span className='info-small'><img src={star} alt={''}/> 4.5 (2 Reviews)</span><br/>
-				</div>
-				<div id='reserve-date'>
-					<label>Dates</label>
-						<DateWidget/>
-					</div>
-					<button id='reserve-button' onClick={this.handleBooking}>
-						<b>Reserve</b>
-					</button>
-				<label id='demo-label'>Demo purposes only</label>
 			</div>
 		);
 	}
