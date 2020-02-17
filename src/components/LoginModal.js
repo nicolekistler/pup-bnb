@@ -115,13 +115,13 @@ class LoginModal extends Component {
 								onChange={this.handleChange}
 							/>
 							<input
-								id="form-submit"
-								value="Log In"
-								type="submit"
+								id='form-submit'
+								value='Log In'
+								type='submit'
 								onClick={this.handleLogin}
 							/>
 							<div id='invalid-login'>
-								Incorrect credentials 🐶
+								Incorrect credentials <span role='img' aria-label='dog-emoji'>🐶</span>
 							</div>
 						</div>
 					</div>
