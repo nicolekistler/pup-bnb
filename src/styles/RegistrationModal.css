@@ -109,11 +109,12 @@
   font-size: 2vh;
 }
 
-#login a {
+#login button {
   color:rgb(0, 132, 137)!important;
   margin: 0 0 0 0!important;
   padding: 0 0 0 0!important;
   float: none;
   cursor: pointer;
   font-size: 2vh;
+  border: none;
 }

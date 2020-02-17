@@ -148,7 +148,7 @@ class RegistrationModal extends Component {
 							{this.state.errorMessage} 🐶
 						</div>
 						<div id='login'>
-							Already have a Pupbnb account? <a href='' onClick={this.triggerLoginModal}>Login</a>
+							Already have a Pupbnb account? <button onClick={this.triggerLoginModal}>Login</button>
 						</div>
 					</div>
 				</div>

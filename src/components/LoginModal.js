@@ -95,7 +95,7 @@ class LoginModal extends Component {
 						<div id='login-content'>
 							<h1>Login</h1>
 							<div id='sign-up'>
-								Don't have an account? <a onClick={this.triggerRegistration}>Sign up</a>
+								Don't have an account? <button onClick={this.triggerRegistration}>Sign up</button>
 							</div>
 							<label>USERNAME</label>
 							<input
