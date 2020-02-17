@@ -5747,7 +5747,7 @@ module.exports = [
       "lat":35.6535053,
       "lng":139.671869,
       "name":"Large & Enjoyable Flat: Steps to Tokyo Tower",
-      "description":" Welcome to Higashi Azabu! It is known as Tokyo's most expensive upscale residential district. Located within a 2 minute walk from the Toei Oedo Line,\n\ the apartment is also footsteps away from the famous Tokyo Tower and Shiba Park.",
+      "description":" Welcome to Higashi Azabu! It is known as Tokyo's most expensive upscale residential district. Located within a 2 minute walk from the Toei Oedo Line,\n the apartment is also footsteps away from the famous Tokyo Tower and Shiba Park.",
       "preview_img":"https://i.imgur.com/UF1OtRQ.jpg",
       "host_name":"Masami",
       "city":"Tokyo, JP",
