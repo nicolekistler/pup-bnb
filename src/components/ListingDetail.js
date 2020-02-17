@@ -69,7 +69,12 @@ class ListingDetail extends Component {
 	}
 
 	handleDateChange(bookingDates = {}) {
-		console.log(bookingDates);
+		const { startDate, endDate } = bookingDates;
+
+		this.setState({
+			startDate: startDate,
+			endDate: endDate
+		});
 	}
 
 	/* Handle user booking */
