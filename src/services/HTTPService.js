@@ -40,7 +40,7 @@ class HTTPService {
 	}
     
 	/**
-	 * Fetch
+	 * Fetch 
 	 * @param {string} url
 	 * @param {object} options
 	 */

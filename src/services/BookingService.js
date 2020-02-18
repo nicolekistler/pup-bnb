@@ -1,13 +1,13 @@
 import HTTPService from './HTTPService';
 
-class AuthService extends HTTPService {
+class BookingService extends HTTPService {
 	constructor(domain) {
 		super();
 
 		this.domain = domain || 'http://localhost:8080';
 
 		this.fetch = this.fetch.bind(this);
-		this.book  = this.book.bind(this);
+		this.book = this.book.bind(this);
 	}
 
 	/**
@@ -30,6 +30,40 @@ class AuthService extends HTTPService {
 			return Promise.resolve(res);
 		});
 	}
+
+	/**
+	 * Book a listing as a user
+	 * @param {string} userId 
+	 * @param {number} listingId 
+	 * @param {string} startDate 
+	 * @param {string} endDate 
+	 */
+	getBookings() {
+		let headers;
+
+		// Set Authorization header
+		if (this.loggedIn()) {
+			headers = {
+				'Authorization' : `Bearer ${this.getToken()}`
+			}
+		}
+
+		return fetch(`${this.domain}/bookings`, {
+			headers
+		})
+			.then(response => {
+				return response.json();
+			})
+			.then(response => {
+				this.setBookings(response.bookings);
+
+				return response;
+			});
+	}
+
+	setBookings(bookings = []) {
+		return this.bookings = bookings;
+	}
 }
 
-export default AuthService;
+export default BookingService;
