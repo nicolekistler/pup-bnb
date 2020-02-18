@@ -89,8 +89,6 @@ class ListingDetail extends Component {
 			return;
 		}
 
-		console.log(this.userId, this.state.listing.id, this.state.startDate, this.state.endDate);
-
 		this.Booking.book(
 			this.userId,
 			this.state.listing.id,
