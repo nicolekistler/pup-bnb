@@ -40,8 +40,7 @@ class BookingService extends HTTPService {
 	 */
 	getBookings() {
 		let headers;
-
-		// Set Authorization header
+		
 		if (this.loggedIn()) {
 			headers = {
 				'Authorization' : `Bearer ${this.getToken()}`
