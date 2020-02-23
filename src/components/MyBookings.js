@@ -5,8 +5,8 @@ import AuthService from '../services/AuthService';
 import BookingService from '../services/BookingService';
 import '../styles/MyBookings.css';
 import Spinner from './Spinner';
-import tripsIllustration from '../assets/trips-illustration.jpg'
 import listingData from '../data/ListingData';
+import moment from 'moment';
 
 class MyBookings extends Component {
 	constructor(props) {
@@ -24,6 +24,63 @@ class MyBookings extends Component {
 	}
 
 	componentDidMount() {
+		this.populateBookings();
+	}
+	
+	render() {
+		return (
+			<div>
+				<NavHeader/>
+				<div id='my-bookings-container'>
+					<div id='upcoming-container'>
+						<h2>Welcome back!</h2>
+						{ this.state.fetchInProgress ? 
+							<Spinner /> : this.renderBookings()
+						}
+					</div>
+				</div>
+			</div>
+		);
+	}
+
+	/* Render bookings */
+	renderBookings() {
+		let result = [];
+
+		let bookings = this.state.bookings;
+
+		if(bookings.length) {
+			result.push(<div>Check out your upcoming trips:</div>);
+		}
+		else {
+			result.push(<div>No upcoming trips</div>);
+		}
+
+		bookings.forEach(booking => {
+			if(moment(booking.startDate).isSameOrAfter(moment().format('YYYY-MM-DD'))) {
+				const startDate = moment(booking.startDate).format('MMMM Do, YYYY');
+				const endDate = moment(booking.endDate).format('MMMM Do, YYYY');
+	
+				result.push(
+					<div className='upcoming-trip-container'
+						key={Math.floor(100000 + Math.random() * 900000)}>
+							<img src={booking.preview_img} alt={''} />
+							<div id='booking-details'>
+								<span id='booking-name'>{booking.name}</span>
+								<span id='booking-dates'>Trip date: {startDate} to {endDate}</span>
+							</div>
+							
+					</div>
+				);
+			}
+		});
+
+		return result;
+
+	}
+
+	/* Get and filter user bookings */
+	populateBookings() {
 		this.Booking.getBookings()
 			.then(data => {
 				let bookings = [];
@@ -38,49 +95,18 @@ class MyBookings extends Component {
 					
 					bookings.push(result);
 				});
+
+				bookings.sort(function (a, b) {
+					return new Date(a.startDate) - new Date(b.startDate);
+				});
+		
+				bookings = [...new Set(bookings)];
 				
 				this.setState({
 					bookings: bookings,
 					fetchInProgress: false
 				});
 			});
-	}
-	
-	render() {
-		return (
-			<div>
-				<NavHeader/>
-				<div id='my-bookings-container'>
-					<div id='upcoming-container'>
-						<h2>Hello, Name!</h2>
-						Check out your upcoming trips
-						{ this.state.fetchInProgress ? 
-							<Spinner /> : this.renderBookings()
-						}
-					</div>
-					<img alt={''} src={tripsIllustration}/>
-				</div>
-			</div>
-		);
-	}
-
-	renderBookings() {
-		const result = [];
-
-		let bookings = this.state.bookings;
-
-		bookings.forEach(booking => {
-			result.push(
-				<div key={Math.floor(100000 + Math.random() * 900000)}>
-					{booking.name}
-					{booking.startDate}
-					{booking.endDate}
-				</div>
-			);
-		})
-
-		return result;
-
 	}
 }
 

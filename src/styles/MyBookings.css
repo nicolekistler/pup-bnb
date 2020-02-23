@@ -2,8 +2,9 @@
 	display: flex;
 	flex-direction: row;
 	width: 100vw;
-	min-height: 100vh;
+	min-height: 90vh;
 	overflow-y: hidden;
+	background: url('../assets/trips-illustration.jpg') top right no-repeat;
 }
 
 #upcoming-container {
@@ -11,6 +12,7 @@
 	flex-direction: column;
 	margin-left: 5vw;
 	margin-top: 5vh;
+	width: 600px;
 }
 
 #upcoming-container h2 {
@@ -19,17 +21,44 @@
 
 .upcoming-trip-container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
  	margin-top: 5vh;
 	margin-bottom: 4vh;
 	padding:3vh;
   	border-radius: 4px;
 	fill: rgb(255, 255, 255);
+	background: white;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px 0px;
 	border-width: 1px;
 	border-style: solid;
 	border-radius:12px;
 	border-color: rgb(255, 255, 255);
-  	width: 50vw;
-  	height: 50vh;
+  	width: 550px;
+  	height: 250px;
+}
+
+.upcoming-trip-container span {
+	margin-top: 5px;
+}
+
+.upcoming-trip-container img {
+	width: 300px;
+	height: 200px;
+	border-radius:5px;
+	margin-bottom: 10px;
+}
+
+#booking-details {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+#booking-name {
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+#booking-dates {
+	font-size: 14px;
 }
