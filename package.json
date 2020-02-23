@@ -25,8 +25,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "server": "node-env-run server --exec nodemon | pino-colada",
-    "dev": "run-p server start"
+    "dev": "run-p server start",
+    "deploy": "aws s3 sync build/ s3://pup-bnb-prod --acl public-read"
   },
   "eslintConfig": {
     "extends": "react-app"
